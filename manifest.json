@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "Chat GPT EX Project",
+    "description": "Extension program development project using Chat GPT",
+    "version": "1.0.0",
+    "permissions": ["contextMenus", "activeTab", "scripting","storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Click to open panel",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    },
+    "options_ui": {
+        "page": "options.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["popup_2.html","popup_3.html","popup_4.html"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }

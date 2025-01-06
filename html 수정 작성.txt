@@ -1,0 +1,2489 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="popup_2.js"></script>
+<title>웹 1920 – 1</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: popup_2_area;
+		--web-view-id: popup_2_area;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: popup_2_area;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#popup_2_area {
+		position: absolute;
+		width: 573px;
+		height: 417px;
+		overflow: hidden;
+		--web-view-name: popup_2_area;
+		--web-view-id: popup_2_area;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#popup_2 {
+		position: absolute;
+		width: 538;
+		height: 386.63;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#_1_i {
+		fill: url(#_1_i);
+		stroke: rgba(35,22,33,0.459);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	._1_i {
+		filter: drop-shadow(5px 5px 3px rgba(141, 0, 151, 0.302));
+		overflow: visible;
+		position: absolute;
+		width: 547.5px;
+		height: 396.127px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#visible_text_box {
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.161));
+		left: 11px;
+		top: 16.404px;
+		position: absolute;
+		overflow: visible;
+		width: 459px;
+		height: 64px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#line {
+		fill: transparent;
+		stroke: rgba(0,0,0,0.459);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.line {
+		overflow: visible;
+		position: absolute;
+		width: 517px;
+		height: 2px;
+		left: 11px;
+		top: 83.904px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#line_l {
+		fill: transparent;
+		stroke: rgba(0,0,0,0.471);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.line_l {
+		overflow: visible;
+		position: absolute;
+		width: 517px;
+		height: 2px;
+		left: 11px;
+		top: 169.904px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#line_m {
+		fill: transparent;
+		stroke: rgba(0,0,0,0.478);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.line_m {
+		overflow: visible;
+		position: absolute;
+		width: 517px;
+		height: 2px;
+		left: 11px;
+		top: 328.904px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#selection_4 {
+		position: absolute;
+		width: 522px;
+		height: 32px;
+		left: 6.359px;
+		top: 290.303px;
+		overflow: visible;
+	}
+	#selection_area_4 {
+		transition: all 0.5s ease;
+		fill: rgba(255,255,255,0);
+	}
+	.selection_area_4 {
+		position: absolute;
+		overflow: visible;
+		width: 525.283px;
+		height: 32.201px;
+		left: 0px;
+		top: 0px;
+	}
+	#text_box_6 {
+		left: 33.208px;
+		top: 4.025px;
+		position: absolute;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ID4 {
+		position: absolute;
+		width: 19.12px;
+		height: 19.12px;
+		left: 7.044px;
+		top: 6.038px;
+		overflow: visible;
+	}
+	#selection_3 {
+		position: absolute;
+		width: 522px;
+		height: 32px;
+		left: 6.359px;
+		top: 251.303px;
+		overflow: visible;
+	}
+	#selection_area_3 {
+		transition: all 0.5s ease;
+		fill: rgba(255,255,255,0);
+	}
+	.selection_area_3 {
+		position: absolute;
+		overflow: visible;
+		width: 525.283px;
+		height: 32.201px;
+		left: 0px;
+		top: 0px;
+	}
+	#text_box_5 {
+		left: 32.201px;
+		top: 4.025px;
+		position: absolute;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ID4_u {
+		position: absolute;
+		width: 19.12px;
+		height: 19.12px;
+		left: 6.038px;
+		top: 6.038px;
+		overflow: visible;
+	}
+	#selection_2 {
+		position: absolute;
+		width: 522px;
+		height: 32px;
+		left: 6.359px;
+		top: 211.303px;
+		overflow: visible;
+	}
+	#text_box_4 {
+		left: 32.201px;
+		top: 5.031px;
+		position: absolute;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ID4_x {
+		position: absolute;
+		width: 19.12px;
+		height: 19.12px;
+		left: 6.038px;
+		top: 7.044px;
+		overflow: visible;
+	}
+	#selection_area_2 {
+		transition: all 0.5s ease;
+		fill: rgba(255,255,255,0);
+	}
+	.selection_area_2 {
+		position: absolute;
+		overflow: visible;
+		width: 525.283px;
+		height: 32.201px;
+		left: 0px;
+		top: 0px;
+	}
+	#selection_1 {
+		position: absolute;
+		width: 522px;
+		height: 32px;
+		left: 6.359px;
+		top: 177.303px;
+		overflow: visible;
+		transition: all 0.5s ease;
+	}
+	#selection_area_1 {
+		transition: all 0.5s ease;
+		fill: rgba(255,255,255,0);
+	}
+	.selection_area_1 {
+		position: absolute;
+		overflow: visible;
+		width: 525.283px;
+		height: 32.201px;
+		left: 0px;
+		top: 0px;
+	}
+	
+	#text_box_3 {
+		left: 33.208px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ID4_ {
+		position: absolute;
+		width: 19.12px;
+		height: 19.12px;
+		left: 7.044px;
+		top: 2.013px;
+		overflow: visible;
+	}
+	#base_selection_2 {
+		position: absolute;
+		width: 522px;
+		height: 32px;
+		left: 6.359px;
+		top: 125.303px;
+		overflow: visible;
+	}
+	#text_box_2 {
+		left: 33.208px;
+		top: 5.031px;
+		position: absolute;
+		overflow: hidden;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#b_selection_area_2 {
+		transition: all 0.5s ease;
+		fill: rgba(255,255,255,0);
+	}
+	.b_selection_area_2 {
+		position: absolute;
+		overflow: visible;
+		width: 525.283px;
+		height: 32.201px;
+		left: 0px;
+		top: 0px;
+	}
+	#ID5 {
+		position: absolute;
+		width: 21.132px;
+		height: 21.132px;
+		left: 5.031px;
+		top: 5.031px;
+		overflow: visible;
+	}
+	#base_selection_1 {
+		position: absolute;
+		width: 522px;
+		height: 32px;
+		left: 6.359px;
+		top: 85.702px;
+		overflow: visible;
+	}
+	#text_box_1 {
+		left: 33.208px;
+		top: 5.031px;
+		position: absolute;
+		overflow: hidden;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ID5_ {
+		position: absolute;
+		width: 21.132px;
+		height: 21.132px;
+		left: 5.031px;
+		top: 5.031px;
+		overflow: visible;
+	}
+	#b_selection_area_1 {
+		transition: all 0.5s ease;
+		fill: rgba(255,255,255,0);
+	}
+	.b_selection_area_1 {
+		filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 525.283px;
+		height: 32.201px;
+		left: 0px;
+		top: 0px;
+	}
+	#close_button {
+		position: absolute;
+		width: 21px;
+		height: 21px;
+		left: 505px;
+		top: 16.404px;
+		overflow: visible;
+	}
+	#reset_button {
+		position: absolute;
+		width: 30px;
+		height: 35px;
+		left: 11px;
+		top: 347.404px;
+		overflow: visible;
+	}
+	#setting_page_link {
+		position: absolute;
+		width: 29px;
+		height: 27px;
+		left: 53px;
+		top: 347.404px;
+		overflow: visible;
+	}
+	#chat_gpt_link {
+		position: absolute;
+		width: 38px;
+		height: 38px;
+		left: 94px;
+		top: 344.404px;
+		overflow: visible;
+	}
+	#selection_1:hover > .selection_area_1 > #selection_area_1 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_1:hover {
+		scale: 1.01;
+	}
+	#selection_2:hover > .selection_area_2 > #selection_area_2 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_2:hover {
+		scale: 1.01;
+	}
+	#selection_3:hover > .selection_area_3 > #selection_area_3 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_3:hover {
+		scale: 1.01;
+	}
+	#selection_4:hover > .selection_area_4 > #selection_area_4 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_4:hover {
+		scale: 1.01;
+	}
+	#base_selection_1:hover > .b_selection_area_1 > #b_selection_area_1 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#base_selection_1:hover {
+		scale: 1.01;
+	}
+	#base_selection_2:hover > .b_selection_area_2 > #b_selection_area_2 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#base_selection_2:hover {
+		scale: 1.01;
+	}
+</style>
+</head>
+<body>
+<div id="popup_2_area">
+	<div id="popup_2">
+		<svg class="_1_i" viewBox="0 -3.404 538 386.627">
+			<linearGradient id="_1_i" spreadMethod="pad" x1="1" x2="0.008" y1="0.457" y2="0.457">
+				<stop offset="0" stop-color="#e5adff" stop-opacity="1"></stop>
+				<stop offset="1" stop-color="#d8e0ff" stop-opacity="1"></stop>
+			</linearGradient>
+			<path id="_1_i" d="M 538 6.059999942779541 L 538 373.2200012207031 L 528 383.2237548828125 L 10 383.2237548828125 L 0 373.2200012207031 L 0 6.059999942779541 L 10 -3.40362548828125 L 528 -3.40362548828125 L 538 6.059999942779541 Z">
+			</path>
+		</svg>
+		<div id="visible_text_box">
+			<span id="text_box_m">선택한 “         ”에 대해 질문을 선택하세요</span>
+		</div>
+		<svg class="line" viewBox="0 0 515 2">
+			<path id="line" d="M 0 0 L 515 0">
+			</path>
+		</svg>
+		<svg class="line_l" viewBox="0 0 515 2">
+			<path id="line_l" d="M 0 0 L 515 0">
+			</path>
+		</svg>
+		<svg class="line_m" viewBox="0 0 515 2">
+			<path id="line_m" d="M 0 0 L 515 0">
+			</path>
+		</svg>
+		<div id="selection_4" class="selection_4">
+			<svg class="selection_area_4">
+				<rect id="selection_area_4" rx="6" ry="6" x="0" y="0" width="522" height="32">
+				</rect>
+			</svg>
+			<div id="text_box_6">
+				<span>AI 생성 선택지 4</span>
+			</div>
+			<img id="ID4" src="ID4.png" srcset="ID4.png 1x, ID4@2x.png 2x">
+				
+		</div>
+		<div id="selection_3" class="selection_3">
+			<svg class="selection_area_3">
+				<rect id="selection_area_3" rx="6" ry="6" x="0" y="0" width="522" height="32">
+				</rect>
+			</svg>
+			<div id="text_box_5">
+				<span>AI 생성 선택지 3</span>
+			</div>
+			<img id="ID4_u" src="ID4_u.png" srcset="ID4_u.png 1x, ID4_u@2x.png 2x">
+				
+		</div>
+		<div id="selection_2" class="selection_2">
+			<div id="text_box_4">
+				<span>AI 생성 선택지 2</span>
+			</div>
+			<img id="ID4_x" src="ID4_x.png" srcset="ID4_x.png 1x, ID4_x@2x.png 2x">
+				
+			<svg class="selection_area_2">
+				<rect id="selection_area_2" rx="6" ry="6" x="0" y="0" width="522" height="32">
+				</rect>
+			</svg>
+		</div>
+		<div id="selection_1" class="selection_1">
+			<svg class="selection_area_1">
+				<rect id="selection_area_1" rx="6" ry="6" x="0" y="0" width="522" height="32">
+				</rect>
+			</svg>
+			<div id="text_box_3">
+				<span>AI 생성 선택지 1</span>
+			</div>
+			<img id="ID4_" src="ID4_.png" srcset="ID4_.png 1x, ID4_@2x.png 2x">
+				
+		</div>
+		<div id="base_selection_2" class="base_selection_2">
+			<svg class="b_selection_area_2">
+				<rect id="b_selection_area_2" rx="6" ry="6" x="0" y="0" width="522" height="32">
+				</rect>
+			</svg>
+			<div id="text_box_2">
+				<span>기본 선택지 2</span><br>
+			</div>
+			<img id="ID5" src="ID5.png" srcset="ID5.png 1x, ID5@2x.png 2x">
+				
+		</div>
+		<div id="base_selection_1" class="base_selection_1">
+			<div id="text_box_1">
+				<span>기본 선택지 1</span><br>
+			</div>
+			<svg class="b_selection_area_1">
+				<rect id="b_selection_area_1" rx="6" ry="6" x="0" y="0" width="522" height="32">
+				</rect>
+			</svg>
+			<img id="ID5_" src="ID5_.png" srcset="ID5_.png 1x, ID5_@2x.png 2x">
+		</div>
+		<img id="close_button" src="close_button.png" srcset="close_button.png 1x, close_button@2x.png 2x">
+			
+		<img id="reset_button" src="reset_button.png" srcset="reset_button.png 1x, reset_button@2x.png 2x">
+			
+		<img id="setting_page_link" src="setting_page_link.png" srcset="setting_page_link.png 1x, setting_page_link@2x.png 2x">
+			
+		<img id="chat_gpt_link" src="chat_gpt_link.png" srcset="chat_gpt_link.png 1x, chat_gpt_link@2x.png 2x">
+			
+	</div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>popup_2_area</title>
+<script type="text/javascript" src="popup_2.js"></script>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: popup_2_area;
+		--web-view-id: popup_2_area;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: popup_2_area;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: content-box;
+	}
+	#popup_2_area {
+		position: absolute;
+		width: 573px;
+		height: auto;
+		padding: 0;
+		overflow: visible;
+		--web-view-name: popup_2_area;
+		--web-view-id: popup_2_area;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#popup_2 {
+		position: absolute;
+		width: 538;
+		height: auto;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		padding: 0;
+	}
+	#base_area_i {
+		fill: url(#base_area_i);
+	}
+	.base_area_i {
+		filter: drop-shadow(2px 2px 3px rgba(83, 200, 219, 0.702));
+		position: absolute;
+		overflow: visible;
+		width: 547px;
+		height: auto;
+		left: 0px;
+		top: 0px;
+	}
+	#_3 {
+		position: absolute;
+		width: 122.104px;
+		height: 38px;
+		left: 10.396px;
+		top: 336.486px;
+		overflow: visible;
+	}
+	#reset_button {
+		position: absolute;
+		width: 32.208px;
+		height: 37.576px;
+		left: 0px;
+		top: 0.424px;
+		overflow: visible;
+	}
+	#setting_page_link {
+		position: absolute;
+		width: 29px;
+		height: 27px;
+		left: 44.104px;
+		top: 2px;
+		overflow: visible;
+	}
+	#chat_gpt_link {
+		position: absolute;
+		width: 38px;
+		height: 38px;
+		left: 84.104px;
+		top: 0px;
+		overflow: visible;
+	}
+	#line {
+		fill: transparent;
+		stroke: rgba(0,0,0,0.478);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		padding: 0;
+	}
+	.line {
+		overflow: visible;
+		position: absolute;
+		width: 540px;
+		height: 2px;
+		left: 1px;
+		top: 320.486px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#selection_4 {
+		position: absolute;
+		width: 519.85px;
+		height: 33px;
+		left: 9.008px;
+		top: 280.385px;
+		overflow: visible;
+	}
+	#selection_area_4 {
+		fill: rgba(255,255,255,0);
+	}
+	.selection_area_4 {
+		position: absolute;
+		overflow: visible;
+		width: 523.12px;
+		height: 33.208px;
+		left: 0px;
+		top: 0px;
+	}
+	#text_box_6 {
+		left: 31.044px;
+		top: 4.025px;
+		position: absolute;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_dialpad_24px {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_dialpad_24px {
+		overflow: visible;
+		position: absolute;
+		width: 16.101px;
+		height: 22.138px;
+		left: 7.044px;
+		top: 4.025px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#selection_3 {
+		position: absolute;
+		width: 518.819px;
+		height: 35.177px;
+		left: 10.04px;
+		top: 240.208px;
+		overflow: visible;
+	}
+	#selection_area_3 {
+		fill: rgba(255,255,255,0);
+	}
+	.selection_area_3 {
+		position: absolute;
+		overflow: visible;
+		width: 522.082px;
+		height: 35.398px;
+		left: 0px;
+		top: 0px;
+	}
+	#text_box_5 {
+		left: 29px;
+		top: 4.025px;
+		position: absolute;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_dialpad_24px_v {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_dialpad_24px_v {
+		overflow: visible;
+		position: absolute;
+		width: 16.101px;
+		height: 22.138px;
+		left: 6.038px;
+		top: 6.216px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_2 {
+		position: absolute;
+		width: 522.73px;
+		height: 68.309px;
+		left: 9.396px;
+		top: 164px;
+		overflow: visible;
+	}
+	#selection_2 {
+		position: absolute;
+		width: 518.463px;
+		height: 33.1px;
+		left: 1px;
+		top: 35px;
+		overflow: visible;
+	}
+	#selection_area_2 {
+		fill: rgba(255,255,255,0);
+	}
+	.selection_area_2 {
+		position: absolute;
+		overflow: visible;
+		width: 521.723px;
+		height: 33.309px;
+		left: 0px;
+		top: 0.055px;
+	}
+	#text_box_4 {
+		left: 28.641px;
+		top: 5.031px;
+		position: absolute;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_dialpad_24px_ {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_dialpad_24px_ {
+		overflow: visible;
+		position: absolute;
+		width: 16.101px;
+		height: 22.138px;
+		left: 6.038px;
+		top: 5.133px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#selection_1 {
+		position: absolute;
+		width: 519.463px;
+		height: 35.252px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#selection_area_1 {
+		fill: rgba(255,0,0,0);
+	}
+	.selection_area_1 {
+		position: absolute;
+		overflow: visible;
+		width: 522.73px;
+		height: 35.474px;
+		left: 0px;
+		top: 0px;
+	}
+	#text_box_3 {
+		left: 30.654px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_dialpad_24px_ba {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_dialpad_24px_ba {
+		overflow: visible;
+		position: absolute;
+		width: 16.101px;
+		height: 22.138px;
+		left: 7.044px;
+		top: 2.266px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#line_ {
+		filter: blur(1px);
+		fill: rgba(0,0,0,0);
+		stroke: rgba(0,0,0,0.471);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.line_ {
+		overflow: visible;
+		position: absolute;
+		width: 523px;
+		height: 8px;
+		left: 11.5px;
+		top: 156px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#base_selection_2 {
+		position: absolute;
+		width: 520.638px;
+		height: 32px;
+		left: 8.228px;
+		top: 110.899px;
+		overflow: visible;
+	}
+	#b_selection_area_2 {
+		fill: rgba(255,255,255,0);
+	}
+	.b_selection_area_2 {
+		position: absolute;
+		overflow: visible;
+		width: 523.912px;
+		height: 32.201px;
+		left: 0px;
+		top: 0px;
+	}
+	#text_box_2 {
+		left: 31.837px;
+		top: 5.031px;
+		position: absolute;
+		overflow: hidden;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_radio_button_checked_24px {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_radio_button_checked_24px {
+		overflow: visible;
+		position: absolute;
+		width: 20.126px;
+		height: 20.126px;
+		left: 5.031px;
+		top: 5.031px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#base_selection_1 {
+		position: absolute;
+		width: 520.85px;
+		height: 32px;
+		left: 8.016px;
+		top: 69.899px;
+		overflow: visible;
+	}
+	#b_selection_area_1 {
+		fill: rgba(255,255,255,0);
+	}
+	.b_selection_area_1 {
+		filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 524.126px;
+		height: 32.201px;
+		left: 0px;
+		top: 0px;
+	}
+	#text_box_1 {
+		left: 32.05px;
+		top: 5.031px;
+		position: absolute;
+		overflow: hidden;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+		margin: 0px;
+		padding: 0px;
+	}
+	#ic_radio_button_checked_24px_bd {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_radio_button_checked_24px_bd {
+		overflow: visible;
+		position: absolute;
+		width: 20.126px;
+		height: 20.126px;
+		left: 5.031px;
+		top: 5.535px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#line_be {
+		filter: blur(1px);
+		fill: transparent;
+		stroke: rgba(0,0,0,0.459);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.line_be {
+		position: absolute;
+		width: 523px;
+		height: 8px;
+		left: 11.5px;
+		top: 68px;
+		transform: matrix(1,0,0,1,0,0);
+		margin: 0px;
+		padding: 0px;
+	}
+	#_1 {
+		position: absolute;
+		width: 528.141px;
+		height: auto;
+		left: 6.859px;
+		top: 5px;
+		overflow: visible;
+		padding: 0px;
+		margin: 0px;
+	}
+	#visible_text_box {
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.161));
+		left: 0px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 503px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+		margin: 0px;
+		padding:0px;
+	}
+	#ic_close_24px {
+		fill: rgba(0,0,0,0.749);
+	}
+	.ic_close_24px {
+		overflow: visible;
+		position: absolute;
+		width: 16.968px;
+		height: 16.829px;
+		left: 508.315px;
+		top: 3px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#close_area {
+		fill: rgba(255,255,255,0);
+	}
+	.close_area {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 505.141px;
+		top: 0px;
+	}
+	#selection_1:hover > .selection_area_1 > #selection_area_1 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_1:hover {
+		scale: 1.01;
+	}
+	#selection_2:hover > .selection_area_2 > #selection_area_2 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_2:hover {
+		scale: 1.01;
+	}
+	#selection_3:hover > .selection_area_3 > #selection_area_3 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_3:hover {
+		scale: 1.01;
+	}
+	#selection_4:hover > .selection_area_4 > #selection_area_4 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_4:hover {
+		scale: 1.01;
+	}
+	#base_selection_1:hover > .b_selection_area_1 > #b_selection_area_1 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#base_selection_1:hover {
+		scale: 1.01;
+	}
+	#base_selection_2:hover > .b_selection_area_2 > #b_selection_area_2 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#base_selection_2:hover {
+		scale: 1.01;
+	}
+	span {
+            user-select: none; /* 텍스트 선택 비활성화 */
+            -webkit-user-select: none; /* Safari 및 Chrome */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE 및 Edge */
+			word-wrap: break-word; /* 단어가 길 경우 줄바꿈 */
+            word-break: break-word; /* 단어를 끊어서 줄바꿈 */
+            white-space: normal; /* 기본적으로 줄바꿈을 허용 */
+            display: inline-block; /* block 요소처럼 줄바꿈 가능 */
+            width: 100%; /* 부모 요소의 너비에 맞게 줄바꿈 */
+    }
+	#text_box_m {
+		padding: 0px;
+		margin: 0px;
+	}
+</style>
+</head>
+<body>
+<div id="popup_2_area">
+	<div id="popup_2">
+		<svg class="base_area_i">
+			<linearGradient id="base_area_i" spreadMethod="pad" x1="0" x2="1" y1="0.474" y2="0.474">
+				<stop offset="0" stop-color="#f9a7ff" stop-opacity="1"></stop>
+				<stop offset="1" stop-color="#d6f7ff" stop-opacity="1"></stop>
+			</linearGradient>
+			<rect id="base_area_i" rx="9" ry="9" x="0" y="0" width="538" height="600">
+			</rect>
+		</svg>
+		<div id="_3">
+			<img id="reset_button" src="reset_button.png" srcset="reset_button.png 1x, reset_button@2x.png 2x">
+				
+			<img id="setting_page_link" src="setting_page_link.png" srcset="setting_page_link.png 1x, setting_page_link@2x.png 2x">
+				
+			<img id="chat_gpt_link" src="chat_gpt_link.png" srcset="chat_gpt_link.png 1x, chat_gpt_link@2x.png 2x">
+				
+		</div>
+		<svg class="line" viewBox="0 0 538 2">
+			<path id="line" d="M 0 0 L 538 0">
+			</path>
+		</svg>
+		<div id="selection_4" class="selection_4">
+			<svg class="selection_area_4">
+				<rect id="selection_area_4" rx="6" ry="6" x="0" y="0" width="519.85" height="33">
+				</rect>
+			</svg>
+			<div id="text_box_6">
+				<span>AI 생성 선택지 4</span>
+			</div>
+			<svg class="ic_dialpad_24px" viewBox="4 1 16 22">
+				<path id="ic_dialpad_24px" d="M 12 19 C 10.89999961853027 19 10 19.89999961853027 10 21 C 10 22.10000038146973 10.89999961853027 23 12 23 C 13.10000038146973 23 14 22.10000038146973 14 21 C 14 19.89999961853027 13.10000038146973 19 12 19 Z M 6 1 C 4.900000095367432 1 4 1.899999976158142 4 3 C 4 4.099999904632568 4.900000095367432 5 6 5 C 7.099999904632568 5 8 4.099999904632568 8 3 C 8 1.900000095367432 7.099999904632568 1 6 1 Z M 6 7 C 4.900000095367432 7 4 7.900000095367432 4 9 C 4 10.10000038146973 4.900000095367432 11 6 11 C 7.099999904632568 11 8 10.10000038146973 8 9 C 8 7.899999618530273 7.099999904632568 7 6 7 Z M 6 13 C 4.900000095367432 13 4 13.89999961853027 4 15 C 4 16.10000038146973 4.900000095367432 17 6 17 C 7.099999904632568 17 8 16.10000038146973 8 15 C 8 13.89999961853027 7.099999904632568 13 6 13 Z M 18 5 C 19.10000038146973 5 20 4.099999904632568 20 3 C 20 1.900000095367432 19.10000038146973 1 18 1 C 16.89999961853027 1 16 1.899999976158142 16 3 C 16 4.099999904632568 16.89999961853027 5 18 5 Z M 12 13 C 10.89999961853027 13 10 13.89999961853027 10 15 C 10 16.10000038146973 10.89999961853027 17 12 17 C 13.10000038146973 17 14 16.10000038146973 14 15 C 14 13.89999961853027 13.10000038146973 13 12 13 Z M 18 13 C 16.89999961853027 13 16 13.89999961853027 16 15 C 16 16.10000038146973 16.89999961853027 17 18 17 C 19.10000038146973 17 20 16.10000038146973 20 15 C 20 13.89999961853027 19.10000038146973 13 18 13 Z M 18 7 C 16.89999961853027 7 16 7.900000095367432 16 9 C 16 10.10000038146973 16.89999961853027 11 18 11 C 19.10000038146973 11 20 10.10000038146973 20 9 C 20 7.899999618530273 19.10000038146973 7 18 7 Z M 12 7 C 10.89999961853027 7 10 7.900000095367432 10 9 C 10 10.10000038146973 10.89999961853027 11 12 11 C 13.10000038146973 11 14 10.10000038146973 14 9 C 14 7.899999618530273 13.10000038146973 7 12 7 Z M 12 1 C 10.89999961853027 1 10 1.899999976158142 10 3 C 10 4.099999904632568 10.89999961853027 5 12 5 C 13.10000038146973 5 14 4.099999904632568 14 3 C 14 1.900000095367432 13.10000038146973 1 12 1 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="selection_3" class="selection_3">
+			<svg class="selection_area_3">
+				<rect id="selection_area_3" rx="6" ry="6" x="0" y="0" width="518.819" height="35.177">
+				</rect>
+			</svg>
+			<div id="text_box_5">
+				<span>AI 생성 선택지 3</span>
+			</div>
+			<svg class="ic_dialpad_24px_v" viewBox="4 1 16 22">
+				<path id="ic_dialpad_24px_v" d="M 12 19 C 10.89999961853027 19 10 19.89999961853027 10 21 C 10 22.10000038146973 10.89999961853027 23 12 23 C 13.10000038146973 23 14 22.10000038146973 14 21 C 14 19.89999961853027 13.10000038146973 19 12 19 Z M 6 1 C 4.900000095367432 1 4 1.899999976158142 4 3 C 4 4.099999904632568 4.900000095367432 5 6 5 C 7.099999904632568 5 8 4.099999904632568 8 3 C 8 1.900000095367432 7.099999904632568 1 6 1 Z M 6 7 C 4.900000095367432 7 4 7.900000095367432 4 9 C 4 10.10000038146973 4.900000095367432 11 6 11 C 7.099999904632568 11 8 10.10000038146973 8 9 C 8 7.899999618530273 7.099999904632568 7 6 7 Z M 6 13 C 4.900000095367432 13 4 13.89999961853027 4 15 C 4 16.10000038146973 4.900000095367432 17 6 17 C 7.099999904632568 17 8 16.10000038146973 8 15 C 8 13.89999961853027 7.099999904632568 13 6 13 Z M 18 5 C 19.10000038146973 5 20 4.099999904632568 20 3 C 20 1.900000095367432 19.10000038146973 1 18 1 C 16.89999961853027 1 16 1.899999976158142 16 3 C 16 4.099999904632568 16.89999961853027 5 18 5 Z M 12 13 C 10.89999961853027 13 10 13.89999961853027 10 15 C 10 16.10000038146973 10.89999961853027 17 12 17 C 13.10000038146973 17 14 16.10000038146973 14 15 C 14 13.89999961853027 13.10000038146973 13 12 13 Z M 18 13 C 16.89999961853027 13 16 13.89999961853027 16 15 C 16 16.10000038146973 16.89999961853027 17 18 17 C 19.10000038146973 17 20 16.10000038146973 20 15 C 20 13.89999961853027 19.10000038146973 13 18 13 Z M 18 7 C 16.89999961853027 7 16 7.900000095367432 16 9 C 16 10.10000038146973 16.89999961853027 11 18 11 C 19.10000038146973 11 20 10.10000038146973 20 9 C 20 7.899999618530273 19.10000038146973 7 18 7 Z M 12 7 C 10.89999961853027 7 10 7.900000095367432 10 9 C 10 10.10000038146973 10.89999961853027 11 12 11 C 13.10000038146973 11 14 10.10000038146973 14 9 C 14 7.899999618530273 13.10000038146973 7 12 7 Z M 12 1 C 10.89999961853027 1 10 1.899999976158142 10 3 C 10 4.099999904632568 10.89999961853027 5 12 5 C 13.10000038146973 5 14 4.099999904632568 14 3 C 14 1.900000095367432 13.10000038146973 1 12 1 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="_2">
+			<div id="selection_2" class="selection_2">
+				<svg class="selection_area_2">
+					<rect id="selection_area_2" rx="6" ry="6" x="0" y="0" width="518.463" height="33.1">
+					</rect>
+				</svg>
+				<div id="text_box_4">
+					<span>AI 생성 선택지 2</span>
+				</div>
+				<svg class="ic_dialpad_24px_" viewBox="4 1 16 22">
+					<path id="ic_dialpad_24px_" d="M 12 19 C 10.89999961853027 19 10 19.89999961853027 10 21 C 10 22.10000038146973 10.89999961853027 23 12 23 C 13.10000038146973 23 14 22.10000038146973 14 21 C 14 19.89999961853027 13.10000038146973 19 12 19 Z M 6 1 C 4.900000095367432 1 4 1.899999976158142 4 3 C 4 4.099999904632568 4.900000095367432 5 6 5 C 7.099999904632568 5 8 4.099999904632568 8 3 C 8 1.900000095367432 7.099999904632568 1 6 1 Z M 6 7 C 4.900000095367432 7 4 7.900000095367432 4 9 C 4 10.10000038146973 4.900000095367432 11 6 11 C 7.099999904632568 11 8 10.10000038146973 8 9 C 8 7.899999618530273 7.099999904632568 7 6 7 Z M 6 13 C 4.900000095367432 13 4 13.89999961853027 4 15 C 4 16.10000038146973 4.900000095367432 17 6 17 C 7.099999904632568 17 8 16.10000038146973 8 15 C 8 13.89999961853027 7.099999904632568 13 6 13 Z M 18 5 C 19.10000038146973 5 20 4.099999904632568 20 3 C 20 1.900000095367432 19.10000038146973 1 18 1 C 16.89999961853027 1 16 1.899999976158142 16 3 C 16 4.099999904632568 16.89999961853027 5 18 5 Z M 12 13 C 10.89999961853027 13 10 13.89999961853027 10 15 C 10 16.10000038146973 10.89999961853027 17 12 17 C 13.10000038146973 17 14 16.10000038146973 14 15 C 14 13.89999961853027 13.10000038146973 13 12 13 Z M 18 13 C 16.89999961853027 13 16 13.89999961853027 16 15 C 16 16.10000038146973 16.89999961853027 17 18 17 C 19.10000038146973 17 20 16.10000038146973 20 15 C 20 13.89999961853027 19.10000038146973 13 18 13 Z M 18 7 C 16.89999961853027 7 16 7.900000095367432 16 9 C 16 10.10000038146973 16.89999961853027 11 18 11 C 19.10000038146973 11 20 10.10000038146973 20 9 C 20 7.899999618530273 19.10000038146973 7 18 7 Z M 12 7 C 10.89999961853027 7 10 7.900000095367432 10 9 C 10 10.10000038146973 10.89999961853027 11 12 11 C 13.10000038146973 11 14 10.10000038146973 14 9 C 14 7.899999618530273 13.10000038146973 7 12 7 Z M 12 1 C 10.89999961853027 1 10 1.899999976158142 10 3 C 10 4.099999904632568 10.89999961853027 5 12 5 C 13.10000038146973 5 14 4.099999904632568 14 3 C 14 1.900000095367432 13.10000038146973 1 12 1 Z">
+					</path>
+				</svg>
+			</div>
+			<div id="selection_1" class="selection_1">
+				<svg class="selection_area_1">
+					<rect id="selection_area_1" rx="6" ry="6" x="0" y="0" width="519.463" height="35.252">
+					</rect>
+				</svg>
+				<div id="text_box_3">
+					<span>AI 생성 선택지 1</span>
+				</div>
+				<svg class="ic_dialpad_24px_ba" viewBox="4 1 16 22">
+					<path id="ic_dialpad_24px_ba" d="M 12 19 C 10.89999961853027 19 10 19.89999961853027 10 21 C 10 22.10000038146973 10.89999961853027 23 12 23 C 13.10000038146973 23 14 22.10000038146973 14 21 C 14 19.89999961853027 13.10000038146973 19 12 19 Z M 6 1 C 4.900000095367432 1 4 1.899999976158142 4 3 C 4 4.099999904632568 4.900000095367432 5 6 5 C 7.099999904632568 5 8 4.099999904632568 8 3 C 8 1.900000095367432 7.099999904632568 1 6 1 Z M 6 7 C 4.900000095367432 7 4 7.900000095367432 4 9 C 4 10.10000038146973 4.900000095367432 11 6 11 C 7.099999904632568 11 8 10.10000038146973 8 9 C 8 7.899999618530273 7.099999904632568 7 6 7 Z M 6 13 C 4.900000095367432 13 4 13.89999961853027 4 15 C 4 16.10000038146973 4.900000095367432 17 6 17 C 7.099999904632568 17 8 16.10000038146973 8 15 C 8 13.89999961853027 7.099999904632568 13 6 13 Z M 18 5 C 19.10000038146973 5 20 4.099999904632568 20 3 C 20 1.900000095367432 19.10000038146973 1 18 1 C 16.89999961853027 1 16 1.899999976158142 16 3 C 16 4.099999904632568 16.89999961853027 5 18 5 Z M 12 13 C 10.89999961853027 13 10 13.89999961853027 10 15 C 10 16.10000038146973 10.89999961853027 17 12 17 C 13.10000038146973 17 14 16.10000038146973 14 15 C 14 13.89999961853027 13.10000038146973 13 12 13 Z M 18 13 C 16.89999961853027 13 16 13.89999961853027 16 15 C 16 16.10000038146973 16.89999961853027 17 18 17 C 19.10000038146973 17 20 16.10000038146973 20 15 C 20 13.89999961853027 19.10000038146973 13 18 13 Z M 18 7 C 16.89999961853027 7 16 7.900000095367432 16 9 C 16 10.10000038146973 16.89999961853027 11 18 11 C 19.10000038146973 11 20 10.10000038146973 20 9 C 20 7.899999618530273 19.10000038146973 7 18 7 Z M 12 7 C 10.89999961853027 7 10 7.900000095367432 10 9 C 10 10.10000038146973 10.89999961853027 11 12 11 C 13.10000038146973 11 14 10.10000038146973 14 9 C 14 7.899999618530273 13.10000038146973 7 12 7 Z M 12 1 C 10.89999961853027 1 10 1.899999976158142 10 3 C 10 4.099999904632568 10.89999961853027 5 12 5 C 13.10000038146973 5 14 4.099999904632568 14 3 C 14 1.900000095367432 13.10000038146973 1 12 1 Z">
+					</path>
+				</svg>
+			</div>
+		</div>
+		<svg class="line_" viewBox="0 0 515 2">
+			<path id="line_" d="M 0 0 L 515 0">
+			</path>
+		</svg>
+		<div id="base_selection_2" class="base_selection_2">
+			<svg class="b_selection_area_2">
+				<rect id="b_selection_area_2" rx="6" ry="6" x="0" y="0" width="520.638" height="32">
+				</rect>
+			</svg>
+			<div id="text_box_2">
+				<span>기본 선택지 2</span><br>
+			</div>
+			<svg class="ic_radio_button_checked_24px" viewBox="2 2 20 20">
+				<path id="ic_radio_button_checked_24px" d="M 12 7 C 9.239999771118164 7 7 9.239999771118164 7 12 C 7 14.76000022888184 9.239999771118164 17 12 17 C 14.76000022888184 17 17 14.76000022888184 17 12 C 17 9.239999771118164 14.76000022888184 7 12 7 Z M 12 2 C 6.480000019073486 2 2 6.480000019073486 2 12 C 2 17.52000045776367 6.480000019073486 22 12 22 C 17.52000045776367 22 22 17.52000045776367 22 12 C 22 6.479999542236328 17.52000045776367 2 12 2 Z M 12 20 C 7.579999923706055 20 4 16.42000007629395 4 12 C 4 7.579999923706055 7.579999923706055 4 12 4 C 16.42000007629395 4 20 7.579999923706055 20 12 C 20 16.42000007629395 16.42000007629395 20 12 20 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="base_selection_1" class="base_selection_1">
+			<svg class="b_selection_area_1">
+				<rect id="b_selection_area_1" rx="6" ry="6" x="0" y="0" width="520.85" height="32">
+				</rect>
+			</svg>
+			<div id="text_box_1">
+				<span>기본 선택지 1</span><br>
+			</div>
+			<svg class="ic_radio_button_checked_24px_bd" viewBox="2 2 20 20">
+				<path id="ic_radio_button_checked_24px_bd" d="M 12 7 C 9.239999771118164 7 7 9.239999771118164 7 12 C 7 14.76000022888184 9.239999771118164 17 12 17 C 14.76000022888184 17 17 14.76000022888184 17 12 C 17 9.239999771118164 14.76000022888184 7 12 7 Z M 12 2 C 6.480000019073486 2 2 6.480000019073486 2 12 C 2 17.52000045776367 6.480000019073486 22 12 22 C 17.52000045776367 22 22 17.52000045776367 22 12 C 22 6.479999542236328 17.52000045776367 2 12 2 Z M 12 20 C 7.579999923706055 20 4 16.42000007629395 4 12 C 4 7.579999923706055 7.579999923706055 4 12 4 C 16.42000007629395 4 20 7.579999923706055 20 12 C 20 16.42000007629395 16.42000007629395 20 12 20 Z">
+				</path>
+			</svg>
+		</div>
+		<svg class="line_be" viewBox="0 0 515 2">
+			<path id="line_be" d="M 0 0 L 515 0">
+			</path>
+		</svg>
+		<div id="_1">
+			<div id="visible_text_box">
+				<span id="text_box_m">선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.</span>
+			</div>
+			<svg class="ic_close_24px" viewBox="5 5 16.968 16.829">
+				<path id="ic_close_24px" d="M 21.96801567077637 6.694954872131348 L 20.25909423828125 5 L 13.48400783538818 11.71971702575684 L 6.708921432495117 5 L 5 6.694954872131348 L 11.77508640289307 13.4146728515625 L 5 20.13438987731934 L 6.708921432495117 21.829345703125 L 13.48400783538818 15.10962677001953 L 20.25909423828125 21.829345703125 L 21.96801567077637 20.13438987731934 L 15.1929292678833 13.4146728515625 L 21.96801567077637 6.694954872131348 Z">
+				</path>
+			</svg>
+			<svg class="close_area">
+				<rect id="close_area" rx="0" ry="0" x="0" y="0" width="23" height="23">
+				</rect>
+			</svg>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>popup_2_area</title>
+<script type="text/javascript" src="popup_2.js"></script>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: popup_2_area;
+		--web-view-id: popup_2_area;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: popup_2_area;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+        border: none;
+	}
+	#popup_2_area {
+		position: relative;
+		width: 573px;
+		height: 600px;
+		padding: 0px;
+		margin: 0px;
+		overflow: visible;
+		--web-view-name: popup_2_area;
+		--web-view-id: popup_2_area;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#popup_2 {
+		position: relative;
+		width: 538px;
+		height: 600px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		padding: 0px;
+		margin: 0px;
+	}
+	#base_area_i {
+		fill: url(#base_area_i);
+		position: absolute;
+	}
+	.base_area_i {
+		filter: drop-shadow(2px 2px 3px rgba(83, 200, 219, 0.702));
+		overflow: visible;
+		position: absolute;
+		width: 547px;
+		height: 600px;
+		left: 0px;
+		top: 0px;
+		padding: 0px;
+		margin: 0px;
+	}
+	#_3 {
+		width: 122.104px;
+		height: 38px;
+		left: 10.396px;
+		overflow: visible;
+		padding: 0px;
+		margin: 0px;
+	}
+	#reset_button {
+		width: 32.208px;
+		height: 37.576px;
+		left: 0px;
+		padding: 0px;
+		margin: 0px;
+		overflow: visible;
+	}
+	#setting_page_link {
+		width: 29px;
+		height: 27px;
+		left: 44.104px;
+		padding: 0px;
+		margin: 0px;
+		overflow: visible;
+	}
+	#chat_gpt_link {
+		width: 38px;
+		padding: 0px;
+		margin: 0px;
+		height: 38px;
+		left: 84.104px;
+		overflow: visible;
+	}
+	#line {
+		fill: transparent;
+		stroke: rgba(0,0,0,0.478);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		padding: 0;
+		padding: 0px;
+		margin: 0px;
+	}
+	.line {
+		overflow: visible;
+		width: 540px;
+		height: 2px;
+		left: 1px;
+		padding: 0px;
+		margin: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#selection_4 {
+		width: 519.85px;
+		height: 33px;
+		left: 9.008px;
+		overflow: visible;
+		padding: 0px;
+		margin: 0px;
+	}
+	#selection_area_4 {
+		fill: rgba(255,255,255,0);
+	}
+	.selection_area_4 {
+		overflow: visible;
+		width: 523.12px;
+		padding: 0px;
+		margin: 0px;
+		height: 33.208px;
+		left: 0px;
+	}
+	#text_box_6 {
+		left: 31.044px;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		padding: 0px;
+		margin: 0px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_dialpad_24px {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_dialpad_24px {
+		overflow: visible;
+		width: 16.101px;
+		height: 22.138px;
+		padding: 0px;
+		margin: 0px;
+		left: 7.044px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#selection_3 {
+		width: 518.819px;
+		height: 35.177px;
+		padding: 0px;
+		margin: 0px;
+		left: 10.04px;
+		overflow: visible;
+	}
+	#selection_area_3 {
+		fill: rgba(255,255,255,0);
+	}
+	.selection_area_3 {
+		overflow: visible;
+		width: 522.082px;
+		height: 35.398px;
+		left: 0px;
+		padding: 0px;
+		margin: 0px;
+	}
+	#text_box_5 {
+		left: 29px;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		padding: 0px;
+		margin: 0px;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_dialpad_24px_v {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_dialpad_24px_v {
+		overflow: visible;
+		width: 16.101px;
+		height: 22.138px;
+		left: 6.038px;
+		padding: 0px;
+		margin: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_2 {
+		width: 522.73px;
+		height: 68.309px;
+		padding: 0px;
+		margin: 0px;
+		left: 9.396px;
+		overflow: visible;
+	}
+	#selection_2 {
+		width: 518.463px;
+		padding: 0px;
+		margin: 0px;
+		height: 33.1px;
+		left: 1px;
+		overflow: visible;
+	}
+	#selection_area_2 {
+		fill: rgba(255,255,255,0);
+	}
+	.selection_area_2 {
+		overflow: visible;
+		padding: 0px;
+		margin: 0px;
+		width: 521.723px;
+		height: 33.309px;
+		left: 0px;
+	}
+	#text_box_4 {
+		left: 28.641px;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		padding: 0px;
+		margin: 0px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_dialpad_24px_ {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_dialpad_24px_ {
+		overflow: visible;
+		width: 16.101px;
+		height: 22.138px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#selection_1 {
+		width: 519.463px;
+		height: 35.252px;
+		left: 0px;
+		overflow: visible;
+	}
+	#selection_area_1 {
+		fill: rgba(255,0,0,0);
+	}
+	.selection_area_1 {
+		overflow: visible;
+		width: 522.73px;
+		height: 35.474px;
+		left: 0px;
+	}
+	#text_box_3 {
+		left: 30.654px;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_dialpad_24px_ba {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_dialpad_24px_ba {
+		overflow: visible;
+		width: 16.101px;
+		height: 22.138px;
+		left: 7.044px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#line_ {
+		filter: blur(1px);
+		fill: rgba(0,0,0,0);
+		stroke: rgba(0,0,0,0.471);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.line_ {
+		overflow: visible;
+		width: 523px;
+		height: 8px;
+		left: 11.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#base_selection_2 {
+		width: 520.638px;
+		height: 32px;
+		left: 8.228px;
+		overflow: visible;
+	}
+	#b_selection_area_2 {
+		fill: rgba(255,255,255,0);
+	}
+	.b_selection_area_2 {
+		overflow: visible;
+		width: 523.912px;
+		height: 32.201px;
+		left: 0px;
+	}
+	#text_box_2 {
+		left: 31.837px;
+		overflow: hidden;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_radio_button_checked_24px {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_radio_button_checked_24px {
+		overflow: visible;
+		width: 20.126px;
+		height: 20.126px;
+		left: 5.031px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#base_selection_1 {
+		width: 520.85px;
+		height: 32px;
+		left: 8.016px;
+		overflow: visible;
+	}
+	#b_selection_area_1 {
+		fill: rgba(255,255,255,0);
+	}
+	.b_selection_area_1 {
+		filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.161));
+		overflow: visible;
+		width: 524.126px;
+		height: 32.201px;
+		left: 0px;
+	}
+	#text_box_1 {
+		left: 32.05px;
+		overflow: hidden;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+		margin: 0px;
+		padding: 0px;
+	}
+	#ic_radio_button_checked_24px_bd {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_radio_button_checked_24px_bd {
+		overflow: visible;
+		width: 20.126px;
+		height: 20.126px;
+		left: 5.031px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#line_be {
+		filter: blur(1px);
+		fill: transparent;
+		stroke: rgba(0,0,0,0.459);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.line_be {
+		overflow: visible;
+		width: 523px;
+		height: 8px;
+		left: 11.5px;
+		transform: matrix(1,0,0,1,0,0);
+		margin: 0px;
+		padding: 0px;
+	}
+	#_1 {
+		width: 528.141px;
+		height: auto;
+		left: 6.859px;
+		padding: 0px;
+			margin: 0px;
+		overflow: visible;
+		padding: 0px;
+		margin: 0px;
+	}
+	#visible_text_box {
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.161));
+		left: 0px;
+		overflow: visible;
+		width: 503px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		padding: 0px;
+			margin: 0px;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+		margin: 0px;
+		padding:0px;
+	}
+	#ic_close_24px {
+		fill: rgba(0,0,0,0.749);
+	}
+	.ic_close_24px {
+		overflow: visible;
+		width: 16.968px;
+		height: 16.829px;
+		left: 508.315px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#close_area {
+		fill: rgba(255,255,255,0);
+	}
+	.close_area {
+		overflow: visible;
+		padding: 0px;
+			margin: 0px;
+		width: 23px;
+		height: 23px;
+		left: 505.141px;
+	}
+	#selection_1:hover > .selection_area_1 > #selection_area_1 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_1:hover {
+		scale: 1.01;
+	}
+	#selection_2:hover > .selection_area_2 > #selection_area_2 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_2:hover {
+		scale: 1.01;
+	}
+	#selection_3:hover > .selection_area_3 > #selection_area_3 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_3:hover {
+		scale: 1.01;
+	}
+	#selection_4:hover > .selection_area_4 > #selection_area_4 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_4:hover {
+		scale: 1.01;
+	}
+	#base_selection_1:hover > .b_selection_area_1 > #b_selection_area_1 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#base_selection_1:hover {
+		scale: 1.01;
+	}
+	#base_selection_2:hover > .b_selection_area_2 > #b_selection_area_2 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#base_selection_2:hover {
+		scale: 1.01;
+	}
+	span {
+            user-select: none; /* 텍스트 선택 비활성화 */
+            -webkit-user-select: none; /* Safari 및 Chrome */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE 및 Edge */
+			word-wrap: break-word; /* 단어가 길 경우 줄바꿈 */
+            word-break: break-word; /* 단어를 끊어서 줄바꿈 */
+            white-space: normal; /* 기본적으로 줄바꿈을 허용 */
+            display: inline-block; /* block 요소처럼 줄바꿈 가능 */
+            width: 100%; /* 부모 요소의 너비에 맞게 줄바꿈 */
+			padding: 0px;
+			margin: 0px;
+			position: relative;
+    }
+	#text_box_m {
+		padding: 0px;
+		margin: 0px;
+	}
+
+</style>
+</head>
+<body>
+<div id="popup_2_area">
+	<div id="popup_2">
+		<svg class="base_area_i">
+			<linearGradient id="base_area_i" spreadMethod="pad" x1="0" x2="1" y1="0.474" y2="0.474">
+				<stop offset="0" stop-color="#f9a7ff" stop-opacity="1"></stop>
+				<stop offset="1" stop-color="#d6f7ff" stop-opacity="1"></stop>
+			</linearGradient>
+			<rect id="base_area_i" rx="9" ry="9" x="0" y="0" width="538" height="600">
+			</rect>
+		</svg>
+		<div id="_3">
+			<img id="reset_button" src="reset_button.png" srcset="reset_button.png 1x, reset_button@2x.png 2x">
+				
+			<img id="setting_page_link" src="setting_page_link.png" srcset="setting_page_link.png 1x, setting_page_link@2x.png 2x">
+				
+			<img id="chat_gpt_link" src="chat_gpt_link.png" srcset="chat_gpt_link.png 1x, chat_gpt_link@2x.png 2x">
+				
+		</div>
+		<svg class="line" viewBox="0 0 538 2">
+			<path id="line" d="M 0 0 L 538 0">
+			</path>
+		</svg>
+		<div id="selection_4" class="selection_4">
+			<svg class="selection_area_4">
+				<rect id="selection_area_4" rx="6" ry="6" x="0" y="0" width="519.85" height="33">
+				</rect>
+			</svg>
+			<div id="text_box_6">
+				<span>AI 생성 선택지 4</span>
+			</div>
+			<svg class="ic_dialpad_24px" viewBox="4 1 16 22">
+				<path id="ic_dialpad_24px" d="M 12 19 C 10.89999961853027 19 10 19.89999961853027 10 21 C 10 22.10000038146973 10.89999961853027 23 12 23 C 13.10000038146973 23 14 22.10000038146973 14 21 C 14 19.89999961853027 13.10000038146973 19 12 19 Z M 6 1 C 4.900000095367432 1 4 1.899999976158142 4 3 C 4 4.099999904632568 4.900000095367432 5 6 5 C 7.099999904632568 5 8 4.099999904632568 8 3 C 8 1.900000095367432 7.099999904632568 1 6 1 Z M 6 7 C 4.900000095367432 7 4 7.900000095367432 4 9 C 4 10.10000038146973 4.900000095367432 11 6 11 C 7.099999904632568 11 8 10.10000038146973 8 9 C 8 7.899999618530273 7.099999904632568 7 6 7 Z M 6 13 C 4.900000095367432 13 4 13.89999961853027 4 15 C 4 16.10000038146973 4.900000095367432 17 6 17 C 7.099999904632568 17 8 16.10000038146973 8 15 C 8 13.89999961853027 7.099999904632568 13 6 13 Z M 18 5 C 19.10000038146973 5 20 4.099999904632568 20 3 C 20 1.900000095367432 19.10000038146973 1 18 1 C 16.89999961853027 1 16 1.899999976158142 16 3 C 16 4.099999904632568 16.89999961853027 5 18 5 Z M 12 13 C 10.89999961853027 13 10 13.89999961853027 10 15 C 10 16.10000038146973 10.89999961853027 17 12 17 C 13.10000038146973 17 14 16.10000038146973 14 15 C 14 13.89999961853027 13.10000038146973 13 12 13 Z M 18 13 C 16.89999961853027 13 16 13.89999961853027 16 15 C 16 16.10000038146973 16.89999961853027 17 18 17 C 19.10000038146973 17 20 16.10000038146973 20 15 C 20 13.89999961853027 19.10000038146973 13 18 13 Z M 18 7 C 16.89999961853027 7 16 7.900000095367432 16 9 C 16 10.10000038146973 16.89999961853027 11 18 11 C 19.10000038146973 11 20 10.10000038146973 20 9 C 20 7.899999618530273 19.10000038146973 7 18 7 Z M 12 7 C 10.89999961853027 7 10 7.900000095367432 10 9 C 10 10.10000038146973 10.89999961853027 11 12 11 C 13.10000038146973 11 14 10.10000038146973 14 9 C 14 7.899999618530273 13.10000038146973 7 12 7 Z M 12 1 C 10.89999961853027 1 10 1.899999976158142 10 3 C 10 4.099999904632568 10.89999961853027 5 12 5 C 13.10000038146973 5 14 4.099999904632568 14 3 C 14 1.900000095367432 13.10000038146973 1 12 1 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="selection_3" class="selection_3">
+			<svg class="selection_area_3">
+				<rect id="selection_area_3" rx="6" ry="6" x="0" y="0" width="518.819" height="35.177">
+				</rect>
+			</svg>
+			<div id="text_box_5">
+				<span>AI 생성 선택지 3</span>
+			</div>
+			<svg class="ic_dialpad_24px_v" viewBox="4 1 16 22">
+				<path id="ic_dialpad_24px_v" d="M 12 19 C 10.89999961853027 19 10 19.89999961853027 10 21 C 10 22.10000038146973 10.89999961853027 23 12 23 C 13.10000038146973 23 14 22.10000038146973 14 21 C 14 19.89999961853027 13.10000038146973 19 12 19 Z M 6 1 C 4.900000095367432 1 4 1.899999976158142 4 3 C 4 4.099999904632568 4.900000095367432 5 6 5 C 7.099999904632568 5 8 4.099999904632568 8 3 C 8 1.900000095367432 7.099999904632568 1 6 1 Z M 6 7 C 4.900000095367432 7 4 7.900000095367432 4 9 C 4 10.10000038146973 4.900000095367432 11 6 11 C 7.099999904632568 11 8 10.10000038146973 8 9 C 8 7.899999618530273 7.099999904632568 7 6 7 Z M 6 13 C 4.900000095367432 13 4 13.89999961853027 4 15 C 4 16.10000038146973 4.900000095367432 17 6 17 C 7.099999904632568 17 8 16.10000038146973 8 15 C 8 13.89999961853027 7.099999904632568 13 6 13 Z M 18 5 C 19.10000038146973 5 20 4.099999904632568 20 3 C 20 1.900000095367432 19.10000038146973 1 18 1 C 16.89999961853027 1 16 1.899999976158142 16 3 C 16 4.099999904632568 16.89999961853027 5 18 5 Z M 12 13 C 10.89999961853027 13 10 13.89999961853027 10 15 C 10 16.10000038146973 10.89999961853027 17 12 17 C 13.10000038146973 17 14 16.10000038146973 14 15 C 14 13.89999961853027 13.10000038146973 13 12 13 Z M 18 13 C 16.89999961853027 13 16 13.89999961853027 16 15 C 16 16.10000038146973 16.89999961853027 17 18 17 C 19.10000038146973 17 20 16.10000038146973 20 15 C 20 13.89999961853027 19.10000038146973 13 18 13 Z M 18 7 C 16.89999961853027 7 16 7.900000095367432 16 9 C 16 10.10000038146973 16.89999961853027 11 18 11 C 19.10000038146973 11 20 10.10000038146973 20 9 C 20 7.899999618530273 19.10000038146973 7 18 7 Z M 12 7 C 10.89999961853027 7 10 7.900000095367432 10 9 C 10 10.10000038146973 10.89999961853027 11 12 11 C 13.10000038146973 11 14 10.10000038146973 14 9 C 14 7.899999618530273 13.10000038146973 7 12 7 Z M 12 1 C 10.89999961853027 1 10 1.899999976158142 10 3 C 10 4.099999904632568 10.89999961853027 5 12 5 C 13.10000038146973 5 14 4.099999904632568 14 3 C 14 1.900000095367432 13.10000038146973 1 12 1 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="_2">
+			<div id="selection_2" class="selection_2">
+				<svg class="selection_area_2">
+					<rect id="selection_area_2" rx="6" ry="6" x="0" y="0" width="518.463" height="33.1">
+					</rect>
+				</svg>
+				<div id="text_box_4">
+					<span>AI 생성 선택지 2</span>
+				</div>
+				<svg class="ic_dialpad_24px_" viewBox="4 1 16 22">
+					<path id="ic_dialpad_24px_" d="M 12 19 C 10.89999961853027 19 10 19.89999961853027 10 21 C 10 22.10000038146973 10.89999961853027 23 12 23 C 13.10000038146973 23 14 22.10000038146973 14 21 C 14 19.89999961853027 13.10000038146973 19 12 19 Z M 6 1 C 4.900000095367432 1 4 1.899999976158142 4 3 C 4 4.099999904632568 4.900000095367432 5 6 5 C 7.099999904632568 5 8 4.099999904632568 8 3 C 8 1.900000095367432 7.099999904632568 1 6 1 Z M 6 7 C 4.900000095367432 7 4 7.900000095367432 4 9 C 4 10.10000038146973 4.900000095367432 11 6 11 C 7.099999904632568 11 8 10.10000038146973 8 9 C 8 7.899999618530273 7.099999904632568 7 6 7 Z M 6 13 C 4.900000095367432 13 4 13.89999961853027 4 15 C 4 16.10000038146973 4.900000095367432 17 6 17 C 7.099999904632568 17 8 16.10000038146973 8 15 C 8 13.89999961853027 7.099999904632568 13 6 13 Z M 18 5 C 19.10000038146973 5 20 4.099999904632568 20 3 C 20 1.900000095367432 19.10000038146973 1 18 1 C 16.89999961853027 1 16 1.899999976158142 16 3 C 16 4.099999904632568 16.89999961853027 5 18 5 Z M 12 13 C 10.89999961853027 13 10 13.89999961853027 10 15 C 10 16.10000038146973 10.89999961853027 17 12 17 C 13.10000038146973 17 14 16.10000038146973 14 15 C 14 13.89999961853027 13.10000038146973 13 12 13 Z M 18 13 C 16.89999961853027 13 16 13.89999961853027 16 15 C 16 16.10000038146973 16.89999961853027 17 18 17 C 19.10000038146973 17 20 16.10000038146973 20 15 C 20 13.89999961853027 19.10000038146973 13 18 13 Z M 18 7 C 16.89999961853027 7 16 7.900000095367432 16 9 C 16 10.10000038146973 16.89999961853027 11 18 11 C 19.10000038146973 11 20 10.10000038146973 20 9 C 20 7.899999618530273 19.10000038146973 7 18 7 Z M 12 7 C 10.89999961853027 7 10 7.900000095367432 10 9 C 10 10.10000038146973 10.89999961853027 11 12 11 C 13.10000038146973 11 14 10.10000038146973 14 9 C 14 7.899999618530273 13.10000038146973 7 12 7 Z M 12 1 C 10.89999961853027 1 10 1.899999976158142 10 3 C 10 4.099999904632568 10.89999961853027 5 12 5 C 13.10000038146973 5 14 4.099999904632568 14 3 C 14 1.900000095367432 13.10000038146973 1 12 1 Z">
+					</path>
+				</svg>
+			</div>
+			<div id="selection_1" class="selection_1">
+				<svg class="selection_area_1">
+					<rect id="selection_area_1" rx="6" ry="6" x="0" y="0" width="519.463" height="35.252">
+					</rect>
+				</svg>
+				<div id="text_box_3">
+					<span>AI 생성 선택지 1</span>
+				</div>
+				<svg class="ic_dialpad_24px_ba" viewBox="4 1 16 22">
+					<path id="ic_dialpad_24px_ba" d="M 12 19 C 10.89999961853027 19 10 19.89999961853027 10 21 C 10 22.10000038146973 10.89999961853027 23 12 23 C 13.10000038146973 23 14 22.10000038146973 14 21 C 14 19.89999961853027 13.10000038146973 19 12 19 Z M 6 1 C 4.900000095367432 1 4 1.899999976158142 4 3 C 4 4.099999904632568 4.900000095367432 5 6 5 C 7.099999904632568 5 8 4.099999904632568 8 3 C 8 1.900000095367432 7.099999904632568 1 6 1 Z M 6 7 C 4.900000095367432 7 4 7.900000095367432 4 9 C 4 10.10000038146973 4.900000095367432 11 6 11 C 7.099999904632568 11 8 10.10000038146973 8 9 C 8 7.899999618530273 7.099999904632568 7 6 7 Z M 6 13 C 4.900000095367432 13 4 13.89999961853027 4 15 C 4 16.10000038146973 4.900000095367432 17 6 17 C 7.099999904632568 17 8 16.10000038146973 8 15 C 8 13.89999961853027 7.099999904632568 13 6 13 Z M 18 5 C 19.10000038146973 5 20 4.099999904632568 20 3 C 20 1.900000095367432 19.10000038146973 1 18 1 C 16.89999961853027 1 16 1.899999976158142 16 3 C 16 4.099999904632568 16.89999961853027 5 18 5 Z M 12 13 C 10.89999961853027 13 10 13.89999961853027 10 15 C 10 16.10000038146973 10.89999961853027 17 12 17 C 13.10000038146973 17 14 16.10000038146973 14 15 C 14 13.89999961853027 13.10000038146973 13 12 13 Z M 18 13 C 16.89999961853027 13 16 13.89999961853027 16 15 C 16 16.10000038146973 16.89999961853027 17 18 17 C 19.10000038146973 17 20 16.10000038146973 20 15 C 20 13.89999961853027 19.10000038146973 13 18 13 Z M 18 7 C 16.89999961853027 7 16 7.900000095367432 16 9 C 16 10.10000038146973 16.89999961853027 11 18 11 C 19.10000038146973 11 20 10.10000038146973 20 9 C 20 7.899999618530273 19.10000038146973 7 18 7 Z M 12 7 C 10.89999961853027 7 10 7.900000095367432 10 9 C 10 10.10000038146973 10.89999961853027 11 12 11 C 13.10000038146973 11 14 10.10000038146973 14 9 C 14 7.899999618530273 13.10000038146973 7 12 7 Z M 12 1 C 10.89999961853027 1 10 1.899999976158142 10 3 C 10 4.099999904632568 10.89999961853027 5 12 5 C 13.10000038146973 5 14 4.099999904632568 14 3 C 14 1.900000095367432 13.10000038146973 1 12 1 Z">
+					</path>
+				</svg>
+			</div>
+		</div>
+		<svg class="line_" viewBox="0 0 515 2">
+			<path id="line_" d="M 0 0 L 515 0">
+			</path>
+		</svg>
+		<div id="base_selection_2" class="base_selection_2">
+			<svg class="b_selection_area_2">
+				<rect id="b_selection_area_2" rx="6" ry="6" x="0" y="0" width="520.638" height="32">
+				</rect>
+			</svg>
+			<div id="text_box_2">
+				<span>기본 선택지 2</span><br>
+			</div>
+			<svg class="ic_radio_button_checked_24px" viewBox="2 2 20 20">
+				<path id="ic_radio_button_checked_24px" d="M 12 7 C 9.239999771118164 7 7 9.239999771118164 7 12 C 7 14.76000022888184 9.239999771118164 17 12 17 C 14.76000022888184 17 17 14.76000022888184 17 12 C 17 9.239999771118164 14.76000022888184 7 12 7 Z M 12 2 C 6.480000019073486 2 2 6.480000019073486 2 12 C 2 17.52000045776367 6.480000019073486 22 12 22 C 17.52000045776367 22 22 17.52000045776367 22 12 C 22 6.479999542236328 17.52000045776367 2 12 2 Z M 12 20 C 7.579999923706055 20 4 16.42000007629395 4 12 C 4 7.579999923706055 7.579999923706055 4 12 4 C 16.42000007629395 4 20 7.579999923706055 20 12 C 20 16.42000007629395 16.42000007629395 20 12 20 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="base_selection_1" class="base_selection_1">
+			<svg class="b_selection_area_1">
+				<rect id="b_selection_area_1" rx="6" ry="6" x="0" y="0" width="520.85" height="32">
+				</rect>
+			</svg>
+			<div id="text_box_1">
+				<span>기본 선택지 1</span><br>
+			</div>
+			<svg class="ic_radio_button_checked_24px_bd" viewBox="2 2 20 20">
+				<path id="ic_radio_button_checked_24px_bd" d="M 12 7 C 9.239999771118164 7 7 9.239999771118164 7 12 C 7 14.76000022888184 9.239999771118164 17 12 17 C 14.76000022888184 17 17 14.76000022888184 17 12 C 17 9.239999771118164 14.76000022888184 7 12 7 Z M 12 2 C 6.480000019073486 2 2 6.480000019073486 2 12 C 2 17.52000045776367 6.480000019073486 22 12 22 C 17.52000045776367 22 22 17.52000045776367 22 12 C 22 6.479999542236328 17.52000045776367 2 12 2 Z M 12 20 C 7.579999923706055 20 4 16.42000007629395 4 12 C 4 7.579999923706055 7.579999923706055 4 12 4 C 16.42000007629395 4 20 7.579999923706055 20 12 C 20 16.42000007629395 16.42000007629395 20 12 20 Z">
+				</path>
+			</svg>
+		</div>
+		<svg class="line_be" viewBox="0 0 515 2">
+			<path id="line_be" d="M 0 0 L 515 0">
+			</path>
+		</svg>
+		<div id="_1">
+			<div id="visible_text_box">
+				<span id="text_box_m">선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.</span>
+			</div>
+			<svg class="ic_close_24px" viewBox="5 5 16.968 16.829">
+				<path id="ic_close_24px" d="M 21.96801567077637 6.694954872131348 L 20.25909423828125 5 L 13.48400783538818 11.71971702575684 L 6.708921432495117 5 L 5 6.694954872131348 L 11.77508640289307 13.4146728515625 L 5 20.13438987731934 L 6.708921432495117 21.829345703125 L 13.48400783538818 15.10962677001953 L 20.25909423828125 21.829345703125 L 21.96801567077637 20.13438987731934 L 15.1929292678833 13.4146728515625 L 21.96801567077637 6.694954872131348 Z">
+				</path>
+			</svg>
+			<svg class="close_area">
+				<rect id="close_area" rx="0" ry="0" x="0" y="0" width="23" height="23">
+				</rect>
+			</svg>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+
+/////일부 완성본
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="popup_2.js"></script>
+<title>popup_2_area</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: popup_2_area;
+		--web-view-id: popup_2_area;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: popup_2_area;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#popup_2_area {
+		position: absolute;
+		width: 569px;
+		height: 608px;
+		overflow: hidden;
+		--web-view-name: popup_2_area;
+		--web-view-id: popup_2_area;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Base_Area {
+		position: absolute;
+		width: 539px;
+		height: 565.529px;
+		left: 0.847px;
+		top: 1.142px;
+		overflow: visible;
+	}
+	#base_area_i {
+		fill: url(#base_area_i);
+	}
+	.base_area_i {
+		filter: drop-shadow(2px 2px 3px rgba(83, 200, 219, 0.702));
+		position: absolute;
+		overflow: visible;
+		width: 545.324px;
+		height: 572.768px;
+		left: 0px;
+		top: 0px;
+	}
+	#etc_button {
+		display: flex;
+		flex-direction: row-reverse;
+		gap:10px;
+		margin: 5px;
+		width: 122.104px;
+		height: 38px;
+		left: 10.364px;
+		top: 520.901px;
+		overflow: visible;
+	}
+	#reset_button {
+		width: 32.108px;
+		height: 37.459px;
+		left: 0px;
+		top: 0.423px;
+		overflow: visible;
+	}
+	#setting_page_link {
+		width: 28.91px;
+		height: 26.916px;
+		left: 43.966px;
+		top: 1.994px;
+		overflow: visible;
+	}
+	#chat_gpt_link {
+		width: 37.882px;
+		height: 37.882px;
+		left: 83.842px;
+		top: 0px;
+		overflow: visible;
+	}
+	#line {
+		fill: transparent;
+		stroke: rgba(0,0,0,0.478);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.line {
+		overflow: visible;
+		width: 538.318px;
+		height: 1.994px;
+		left: 0.997px;
+		top: 504.951px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#selection_4 {
+		display: flex;
+		flex-direction: row-reverse;
+		gap:5px;
+		margin: 5px;
+		width: 519.85px;
+		height: 33px;
+		left: 8.984px;
+		top: 465.701px;
+		overflow: visible;
+	}
+	#selection_area_4 {
+		fill: rgba(255,255,255,0);
+	}
+	.selection_area_4 {
+		position: absolute;
+		overflow: visible;
+		width: 521.48px;
+		height: 33.103px;
+		left: 0px;
+		top: 0px;
+	}
+	#text_box_6 {
+		left: 30.947px;
+		top: 4.013px;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_dialpad_24px {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_dialpad_24px {
+		overflow: visible;
+		width: 16.05px;
+		height: 22.069px;
+		left: 7.022px;
+		top: 4.013px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#selection_3 {
+		display: flex;
+		flex-direction: row-reverse;
+		gap:5px;
+		margin: 5px;
+		width: 518.819px;
+		height: 35.177px;
+		left: 10.019px;
+		top: 425.398px;
+		overflow: visible;
+	}
+	#selection_area_3 {
+		fill: rgba(255,255,255,0);
+	}
+	.selection_area_3 {
+		position: absolute;
+		overflow: visible;
+		width: 520.445px;
+		height: 35.287px;
+		left: 0px;
+		top: 0px;
+	}
+	#text_box_5 {
+		left: 28.909px;
+		top: 4.013px;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_dialpad_24px_v {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_dialpad_24px_v {
+		overflow: visible;
+		width: 16.05px;
+		height: 22.069px;
+		left: 6.019px;
+		top: 6.196px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#selection_2 {
+		display: flex;
+		flex-direction: row-reverse;
+		gap:5px;
+		margin: 5px;
+		width: 518.463px;
+		height: 33.1px;
+		left: 12px;
+		top: 384.052px;
+		overflow: visible;
+	}
+	#selection_area_2 {
+		fill: rgba(255,255,255,0);
+	}
+	.selection_area_2 {
+		position: absolute;
+		overflow: visible;
+		width: 516.847px;
+		height: 32.997px;
+		left: 0px;
+		top: 0.054px;
+	}
+	#text_box_4 {
+		left: 28.374px;
+		top: 4.984px;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_dialpad_24px_z {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_dialpad_24px_z {
+		overflow: visible;
+		width: 15.95px;
+		height: 21.931px;
+		left: 5.981px;
+		top: 5.085px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#selection_1 {
+		display: flex;
+		flex-direction: row-reverse;
+		gap:5px;
+		margin: 5px;
+		width: 519.463px;
+		height: 35.252px;
+		left: 11.003px;
+		top: 340.935px;
+		overflow: visible;
+	}
+	#selection_area_1 {
+		fill: rgba(255,0,0,0);
+	}
+	.selection_area_1 {
+		overflow: visible;
+		position: absolute;
+		width: 517.844px;
+		height: 35.142px;
+		left: 0px;
+		top: 0px;
+	}
+	#text_box_3 {
+		left: 30.368px;
+		top: 0px;
+		overflow: visible;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_dialpad_24px_ {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_dialpad_24px_ {
+		overflow: visible;
+		width: 15.95px;
+		height: 21.931px;
+		left: 6.978px;
+		top: 2.245px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#line_ {
+		filter: blur(1px);
+		fill: rgba(0,0,0,0);
+		stroke: rgba(0,0,0,0.471);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.line_ {
+		overflow: visible;
+		margin: 5px;
+		width: 521.389px;
+		height: 7.994px;
+		left: 11.464px;
+		top: 332.959px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#base_selection_2 {
+		display: flex;
+		flex-direction: row-reverse;
+		gap:5px;
+		margin: 5px;
+		width: 520.638px;
+		height: 32px;
+		left: 8.202px;
+		top: 287.615px;
+		overflow: visible;
+	}
+	#b_selection_area_2 {
+		fill: rgba(255,255,255,0);
+	}
+	.b_selection_area_2 {
+		position: absolute;
+		overflow: visible;
+		width: 522.27px;
+		height: 32.1px;
+		left: 0px;
+		top: 0px;
+	}
+	#text_box_2 {
+		left: 31.737px;
+		top: 5.016px;
+		overflow: hidden;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_radio_button_checked_24px {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_radio_button_checked_24px {
+		overflow: visible;
+		width: 20.063px;
+		height: 20.063px;
+		left: 5.016px;
+		top: 5.016px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#base_selection_1 {
+		display: flex;
+		flex-direction: row-reverse;
+		gap:5px;
+		width: 520.85px;
+		height: 32px;
+		left: 7.989px;
+		overflow: visible;
+		margin: 5px;
+	}
+	#b_selection_area_1 {
+		fill: rgba(255,255,255,0);
+	}
+	.b_selection_area_1 {
+		position: absolute;
+		filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.161));
+		overflow: visible;
+		width: 522.483px;
+		height: 32.1px;
+		left: 0px;
+		top: 0px;
+	}
+	#text_box_1 {
+		left: 31.95px;
+		top: 5.016px;
+		overflow: hidden;
+		width: 481px;
+		height: 21px;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#ic_radio_button_checked_24px_bc {
+		fill: rgba(0,0,0,0.8);
+	}
+	.ic_radio_button_checked_24px_bc {
+		overflow: visible;
+		width: 20.063px;
+		height: 20.063px;
+		left: 5.016px;
+		top: 5.517px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#line_bd {
+		filter: blur(1px);
+		fill: transparent;
+		stroke: rgba(0,0,0,0.459);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.line_bd {
+		overflow: visible;
+		width: 521.389px;
+		height: 7.994px;
+		left: 11.464px;
+		top: 245.234px;
+		margin: 5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#visible_text_box {
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.161));
+		left: 6.837px;
+		top: 4.984px;
+		overflow: visible;
+		width: 503px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: JejuMyeongjo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		margin: 5px;
+		color: rgba(0,0,0,1);
+	}
+	#Base_Area_Control {
+		position: absolute;
+		width: 16.968px;
+		height: 16.829px;
+		left: 514.516px;
+		top: 6px;
+		overflow: visible;
+	}
+	#ic_close_24px {
+		fill: rgba(0,0,0,0.749);
+	}
+	.ic_close_24px {
+		overflow: visible;
+		position: absolute;
+		width: 16.968px;
+		height: 16.829px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#selection_1:hover > .selection_area_1 > #selection_area_1 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_1:hover {
+		scale: 1.01;
+	}
+	#selection_2:hover > .selection_area_2 > #selection_area_2 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_2:hover {
+		scale: 1.01;
+	}
+	#selection_3:hover > .selection_area_3 > #selection_area_3 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_3:hover {
+		scale: 1.01;
+	}
+	#selection_4:hover > .selection_area_4 > #selection_area_4 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#selection_4:hover {
+		scale: 1.01;
+	}
+	#base_selection_1:hover > .b_selection_area_1 > #b_selection_area_1 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#base_selection_1:hover {
+		scale: 1.01;
+	}
+	#base_selection_2:hover > .b_selection_area_2 > #b_selection_area_2 {
+		fill: rgba(255, 0, 157, 0.308);
+	}
+	#base_selection_2:hover {
+		scale: 1.01;
+	}
+	span {
+            user-select: none; /* 텍스트 선택 비활성화 */
+            -webkit-user-select: none; /* Safari 및 Chrome */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE 및 Edge */
+			word-wrap: break-word; /* 단어가 길 경우 줄바꿈 */
+            word-break: break-word; /* 단어를 끊어서 줄바꿈 */
+            white-space: normal; /* 기본적으로 줄바꿈을 허용 */
+            display: inline-block; /* block 요소처럼 줄바꿈 가능 */
+            width: 100%; /* 부모 요소의 너비에 맞게 줄바꿈 */
+			padding: 0px;
+			margin: 0px;
+			position: relative;
+    }
+</style>
+
+</head>
+<body>
+	<svg class="base_area_i">
+		<linearGradient id="base_area_i" spreadMethod="pad" x1="0" x2="1" y1="0.474" y2="0.474">
+			<stop offset="0" stop-color="#f9a7ff" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#d6f7ff" stop-opacity="1"></stop>
+		</linearGradient>
+		<rect id="base_area_i" rx="9" ry="9" x="0" y="0" width="538" height="565.529">
+		</rect>
+	</svg>
+	<div id="Base_Area_Control">
+		<svg class="ic_close_24px" viewBox="5 5 16.968 16.829">
+			<path id="ic_close_24px" d="M 21.96801567077637 6.694954872131348 L 20.25909423828125 5 L 13.48400783538818 11.71971702575684 L 6.708921432495117 5 L 5 6.694954872131348 L 11.77508640289307 13.4146728515625 L 5 20.13438987731934 L 6.708921432495117 21.829345703125 L 13.48400783538818 15.10962677001953 L 20.25909423828125 21.829345703125 L 21.96801567077637 20.13438987731934 L 15.1929292678833 13.4146728515625 L 21.96801567077637 6.694954872131348 Z">
+			</path>
+		</svg>
+	</div>
+	<div id="popup_2_area">
+		<div id="Base_Area">
+			<div id="visible_text_box">
+				<span>선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.선택한 “         ”에 대해 질문을 선택하세요.</span>
+			</div>
+			<svg class="line_bd" viewBox="0 0 515 2">
+				<path id="line_bd" d="M 0 0 L 515 0">
+				</path>
+			</svg>
+			<div id="base_selection_1" class="base_selection_1">
+				<svg class="b_selection_area_1">
+					<rect id="b_selection_area_1" rx="6" ry="6" x="0" y="0" width="520.85" height="32">
+					</rect>
+				</svg>
+				<div id="text_box_1">
+					<span>기본 선택지 1</span><br>
+				</div>
+				<svg class="ic_radio_button_checked_24px_bc" viewBox="2 2 20 20">
+					<path id="ic_radio_button_checked_24px_bc" d="M 12 7 C 9.239999771118164 7 7 9.239999771118164 7 12 C 7 14.76000022888184 9.239999771118164 17 12 17 C 14.76000022888184 17 17 14.76000022888184 17 12 C 17 9.239999771118164 14.76000022888184 7 12 7 Z M 12 2 C 6.480000019073486 2 2 6.480000019073486 2 12 C 2 17.52000045776367 6.480000019073486 22 12 22 C 17.52000045776367 22 22 17.52000045776367 22 12 C 22 6.479999542236328 17.52000045776367 2 12 2 Z M 12 20 C 7.579999923706055 20 4 16.42000007629395 4 12 C 4 7.579999923706055 7.579999923706055 4 12 4 C 16.42000007629395 4 20 7.579999923706055 20 12 C 20 16.42000007629395 16.42000007629395 20 12 20 Z">
+					</path>
+				</svg>
+			</div>
+			<div id="base_selection_2" class="base_selection_2">
+				<svg class="b_selection_area_2">
+					<rect id="b_selection_area_2" rx="6" ry="6" x="0" y="0" width="520.638" height="32">
+					</rect>
+				</svg>
+				<div id="text_box_2">
+					<span>기본 선택지 2</span><br>
+				</div>
+				<svg class="ic_radio_button_checked_24px" viewBox="2 2 20 20">
+					<path id="ic_radio_button_checked_24px" d="M 12 7 C 9.239999771118164 7 7 9.239999771118164 7 12 C 7 14.76000022888184 9.239999771118164 17 12 17 C 14.76000022888184 17 17 14.76000022888184 17 12 C 17 9.239999771118164 14.76000022888184 7 12 7 Z M 12 2 C 6.480000019073486 2 2 6.480000019073486 2 12 C 2 17.52000045776367 6.480000019073486 22 12 22 C 17.52000045776367 22 22 17.52000045776367 22 12 C 22 6.479999542236328 17.52000045776367 2 12 2 Z M 12 20 C 7.579999923706055 20 4 16.42000007629395 4 12 C 4 7.579999923706055 7.579999923706055 4 12 4 C 16.42000007629395 4 20 7.579999923706055 20 12 C 20 16.42000007629395 16.42000007629395 20 12 20 Z">
+					</path>
+				</svg>
+			</div>
+			<svg class="line_" viewBox="0 0 515 2">
+				<path id="line_" d="M 0 0 L 515 0">
+				</path>
+			</svg>
+			<div id="selection_1" class="selection_1">
+				<svg class="selection_area_1">
+					<rect id="selection_area_1" rx="6" ry="6" x="0" y="0" width="519.463" height="35.252">
+					</rect>
+				</svg>
+				<div id="text_box_3">
+					<span>AI 생성 선택지 1</span>
+				</div>
+				<svg class="ic_dialpad_24px_" viewBox="4 1 16 22">
+					<path id="ic_dialpad_24px_" d="M 12 19 C 10.89999961853027 19 10 19.89999961853027 10 21 C 10 22.10000038146973 10.89999961853027 23 12 23 C 13.10000038146973 23 14 22.10000038146973 14 21 C 14 19.89999961853027 13.10000038146973 19 12 19 Z M 6 1 C 4.900000095367432 1 4 1.899999976158142 4 3 C 4 4.099999904632568 4.900000095367432 5 6 5 C 7.099999904632568 5 8 4.099999904632568 8 3 C 8 1.900000095367432 7.099999904632568 1 6 1 Z M 6 7 C 4.900000095367432 7 4 7.900000095367432 4 9 C 4 10.10000038146973 4.900000095367432 11 6 11 C 7.099999904632568 11 8 10.10000038146973 8 9 C 8 7.899999618530273 7.099999904632568 7 6 7 Z M 6 13 C 4.900000095367432 13 4 13.89999961853027 4 15 C 4 16.10000038146973 4.900000095367432 17 6 17 C 7.099999904632568 17 8 16.10000038146973 8 15 C 8 13.89999961853027 7.099999904632568 13 6 13 Z M 18 5 C 19.10000038146973 5 20 4.099999904632568 20 3 C 20 1.900000095367432 19.10000038146973 1 18 1 C 16.89999961853027 1 16 1.899999976158142 16 3 C 16 4.099999904632568 16.89999961853027 5 18 5 Z M 12 13 C 10.89999961853027 13 10 13.89999961853027 10 15 C 10 16.10000038146973 10.89999961853027 17 12 17 C 13.10000038146973 17 14 16.10000038146973 14 15 C 14 13.89999961853027 13.10000038146973 13 12 13 Z M 18 13 C 16.89999961853027 13 16 13.89999961853027 16 15 C 16 16.10000038146973 16.89999961853027 17 18 17 C 19.10000038146973 17 20 16.10000038146973 20 15 C 20 13.89999961853027 19.10000038146973 13 18 13 Z M 18 7 C 16.89999961853027 7 16 7.900000095367432 16 9 C 16 10.10000038146973 16.89999961853027 11 18 11 C 19.10000038146973 11 20 10.10000038146973 20 9 C 20 7.899999618530273 19.10000038146973 7 18 7 Z M 12 7 C 10.89999961853027 7 10 7.900000095367432 10 9 C 10 10.10000038146973 10.89999961853027 11 12 11 C 13.10000038146973 11 14 10.10000038146973 14 9 C 14 7.899999618530273 13.10000038146973 7 12 7 Z M 12 1 C 10.89999961853027 1 10 1.899999976158142 10 3 C 10 4.099999904632568 10.89999961853027 5 12 5 C 13.10000038146973 5 14 4.099999904632568 14 3 C 14 1.900000095367432 13.10000038146973 1 12 1 Z">
+					</path>
+				</svg>
+			</div>
+			<div id="selection_2" class="selection_2">
+				<svg class="selection_area_2">
+					<rect id="selection_area_2" rx="6" ry="6" x="0" y="0" width="518.463" height="33.1">
+					</rect>
+				</svg>
+				<div id="text_box_4">
+					<span>AI 생성 선택지 2</span>
+				</div>
+				<svg class="ic_dialpad_24px_z" viewBox="4 1 16 22">
+					<path id="ic_dialpad_24px_z" d="M 12 19 C 10.89999961853027 19 10 19.89999961853027 10 21 C 10 22.10000038146973 10.89999961853027 23 12 23 C 13.10000038146973 23 14 22.10000038146973 14 21 C 14 19.89999961853027 13.10000038146973 19 12 19 Z M 6 1 C 4.900000095367432 1 4 1.899999976158142 4 3 C 4 4.099999904632568 4.900000095367432 5 6 5 C 7.099999904632568 5 8 4.099999904632568 8 3 C 8 1.900000095367432 7.099999904632568 1 6 1 Z M 6 7 C 4.900000095367432 7 4 7.900000095367432 4 9 C 4 10.10000038146973 4.900000095367432 11 6 11 C 7.099999904632568 11 8 10.10000038146973 8 9 C 8 7.899999618530273 7.099999904632568 7 6 7 Z M 6 13 C 4.900000095367432 13 4 13.89999961853027 4 15 C 4 16.10000038146973 4.900000095367432 17 6 17 C 7.099999904632568 17 8 16.10000038146973 8 15 C 8 13.89999961853027 7.099999904632568 13 6 13 Z M 18 5 C 19.10000038146973 5 20 4.099999904632568 20 3 C 20 1.900000095367432 19.10000038146973 1 18 1 C 16.89999961853027 1 16 1.899999976158142 16 3 C 16 4.099999904632568 16.89999961853027 5 18 5 Z M 12 13 C 10.89999961853027 13 10 13.89999961853027 10 15 C 10 16.10000038146973 10.89999961853027 17 12 17 C 13.10000038146973 17 14 16.10000038146973 14 15 C 14 13.89999961853027 13.10000038146973 13 12 13 Z M 18 13 C 16.89999961853027 13 16 13.89999961853027 16 15 C 16 16.10000038146973 16.89999961853027 17 18 17 C 19.10000038146973 17 20 16.10000038146973 20 15 C 20 13.89999961853027 19.10000038146973 13 18 13 Z M 18 7 C 16.89999961853027 7 16 7.900000095367432 16 9 C 16 10.10000038146973 16.89999961853027 11 18 11 C 19.10000038146973 11 20 10.10000038146973 20 9 C 20 7.899999618530273 19.10000038146973 7 18 7 Z M 12 7 C 10.89999961853027 7 10 7.900000095367432 10 9 C 10 10.10000038146973 10.89999961853027 11 12 11 C 13.10000038146973 11 14 10.10000038146973 14 9 C 14 7.899999618530273 13.10000038146973 7 12 7 Z M 12 1 C 10.89999961853027 1 10 1.899999976158142 10 3 C 10 4.099999904632568 10.89999961853027 5 12 5 C 13.10000038146973 5 14 4.099999904632568 14 3 C 14 1.900000095367432 13.10000038146973 1 12 1 Z">
+					</path>
+				</svg>
+			</div>
+			<div id="selection_3" class="selection_3">
+				<svg class="selection_area_3">
+					<rect id="selection_area_3" rx="6" ry="6" x="0" y="0" width="518.819" height="35.177">
+					</rect>
+				</svg>
+				<div id="text_box_5">
+					<span>AI 생성 선택지 3</span>
+				</div>
+				<svg class="ic_dialpad_24px_v" viewBox="4 1 16 22">
+					<path id="ic_dialpad_24px_v" d="M 12 19 C 10.89999961853027 19 10 19.89999961853027 10 21 C 10 22.10000038146973 10.89999961853027 23 12 23 C 13.10000038146973 23 14 22.10000038146973 14 21 C 14 19.89999961853027 13.10000038146973 19 12 19 Z M 6 1 C 4.900000095367432 1 4 1.899999976158142 4 3 C 4 4.099999904632568 4.900000095367432 5 6 5 C 7.099999904632568 5 8 4.099999904632568 8 3 C 8 1.900000095367432 7.099999904632568 1 6 1 Z M 6 7 C 4.900000095367432 7 4 7.900000095367432 4 9 C 4 10.10000038146973 4.900000095367432 11 6 11 C 7.099999904632568 11 8 10.10000038146973 8 9 C 8 7.899999618530273 7.099999904632568 7 6 7 Z M 6 13 C 4.900000095367432 13 4 13.89999961853027 4 15 C 4 16.10000038146973 4.900000095367432 17 6 17 C 7.099999904632568 17 8 16.10000038146973 8 15 C 8 13.89999961853027 7.099999904632568 13 6 13 Z M 18 5 C 19.10000038146973 5 20 4.099999904632568 20 3 C 20 1.900000095367432 19.10000038146973 1 18 1 C 16.89999961853027 1 16 1.899999976158142 16 3 C 16 4.099999904632568 16.89999961853027 5 18 5 Z M 12 13 C 10.89999961853027 13 10 13.89999961853027 10 15 C 10 16.10000038146973 10.89999961853027 17 12 17 C 13.10000038146973 17 14 16.10000038146973 14 15 C 14 13.89999961853027 13.10000038146973 13 12 13 Z M 18 13 C 16.89999961853027 13 16 13.89999961853027 16 15 C 16 16.10000038146973 16.89999961853027 17 18 17 C 19.10000038146973 17 20 16.10000038146973 20 15 C 20 13.89999961853027 19.10000038146973 13 18 13 Z M 18 7 C 16.89999961853027 7 16 7.900000095367432 16 9 C 16 10.10000038146973 16.89999961853027 11 18 11 C 19.10000038146973 11 20 10.10000038146973 20 9 C 20 7.899999618530273 19.10000038146973 7 18 7 Z M 12 7 C 10.89999961853027 7 10 7.900000095367432 10 9 C 10 10.10000038146973 10.89999961853027 11 12 11 C 13.10000038146973 11 14 10.10000038146973 14 9 C 14 7.899999618530273 13.10000038146973 7 12 7 Z M 12 1 C 10.89999961853027 1 10 1.899999976158142 10 3 C 10 4.099999904632568 10.89999961853027 5 12 5 C 13.10000038146973 5 14 4.099999904632568 14 3 C 14 1.900000095367432 13.10000038146973 1 12 1 Z">
+					</path>
+				</svg>
+			</div>
+			<div id="selection_4" class="selection_4">
+				<svg class="selection_area_4">
+					<rect id="selection_area_4" rx="6" ry="6" x="0" y="0" width="519.85" height="33">
+					</rect>
+				</svg>
+				<div id="text_box_6">
+					<span>AI 생성 선택지 4</span>
+				</div>
+				<svg class="ic_dialpad_24px" viewBox="4 1 16 22">
+					<path id="ic_dialpad_24px" d="M 12 19 C 10.89999961853027 19 10 19.89999961853027 10 21 C 10 22.10000038146973 10.89999961853027 23 12 23 C 13.10000038146973 23 14 22.10000038146973 14 21 C 14 19.89999961853027 13.10000038146973 19 12 19 Z M 6 1 C 4.900000095367432 1 4 1.899999976158142 4 3 C 4 4.099999904632568 4.900000095367432 5 6 5 C 7.099999904632568 5 8 4.099999904632568 8 3 C 8 1.900000095367432 7.099999904632568 1 6 1 Z M 6 7 C 4.900000095367432 7 4 7.900000095367432 4 9 C 4 10.10000038146973 4.900000095367432 11 6 11 C 7.099999904632568 11 8 10.10000038146973 8 9 C 8 7.899999618530273 7.099999904632568 7 6 7 Z M 6 13 C 4.900000095367432 13 4 13.89999961853027 4 15 C 4 16.10000038146973 4.900000095367432 17 6 17 C 7.099999904632568 17 8 16.10000038146973 8 15 C 8 13.89999961853027 7.099999904632568 13 6 13 Z M 18 5 C 19.10000038146973 5 20 4.099999904632568 20 3 C 20 1.900000095367432 19.10000038146973 1 18 1 C 16.89999961853027 1 16 1.899999976158142 16 3 C 16 4.099999904632568 16.89999961853027 5 18 5 Z M 12 13 C 10.89999961853027 13 10 13.89999961853027 10 15 C 10 16.10000038146973 10.89999961853027 17 12 17 C 13.10000038146973 17 14 16.10000038146973 14 15 C 14 13.89999961853027 13.10000038146973 13 12 13 Z M 18 13 C 16.89999961853027 13 16 13.89999961853027 16 15 C 16 16.10000038146973 16.89999961853027 17 18 17 C 19.10000038146973 17 20 16.10000038146973 20 15 C 20 13.89999961853027 19.10000038146973 13 18 13 Z M 18 7 C 16.89999961853027 7 16 7.900000095367432 16 9 C 16 10.10000038146973 16.89999961853027 11 18 11 C 19.10000038146973 11 20 10.10000038146973 20 9 C 20 7.899999618530273 19.10000038146973 7 18 7 Z M 12 7 C 10.89999961853027 7 10 7.900000095367432 10 9 C 10 10.10000038146973 10.89999961853027 11 12 11 C 13.10000038146973 11 14 10.10000038146973 14 9 C 14 7.899999618530273 13.10000038146973 7 12 7 Z M 12 1 C 10.89999961853027 1 10 1.899999976158142 10 3 C 10 4.099999904632568 10.89999961853027 5 12 5 C 13.10000038146973 5 14 4.099999904632568 14 3 C 14 1.900000095367432 13.10000038146973 1 12 1 Z">
+					</path>
+				</svg>
+			</div>
+			<svg class="line" viewBox="0 0 538 2">
+				<path id="line" d="M 0 0 L 538 0">
+				</path>
+			</svg>
+			<div id="etc_button">
+				<img id="reset_button" src="reset_button.png" srcset="reset_button.png 1x, reset_button@2x.png 2x">
+					
+				<img id="setting_page_link" src="setting_page_link.png" srcset="setting_page_link.png 1x, setting_page_link@2x.png 2x">
+					
+				<img id="chat_gpt_link" src="chat_gpt_link.png" srcset="chat_gpt_link.png 1x, chat_gpt_link@2x.png 2x">
+	
+			</div>
+		</div>
+</div>
+</body>
+</html>

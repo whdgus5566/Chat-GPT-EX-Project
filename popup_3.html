@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="popup_3.js"></script>
+<title>popup_3</title>
+<style id="applicationStylesheet" type="text/css">
+	::-webkit-scrollbar {
+    	width: 10px;  /* 세로축 스크롤바 폭 너비 */
+    	height: 20px;  /* 가로축 스크롤바 폭 너비 */
+	}
+	::-webkit-scrollbar-thumb {
+    	background: #d058ff; /* 스크롤바 막대 색상 */
+    	border: 2px solid #9b6a2f; /* 스크롤바 막대 테두리 설정  */
+    	border-radius: 12px 12px 12px 12px;
+	}
+	@keyframes swing {
+		0% {
+		    transform: rotate(0deg);
+		}
+
+		25% {
+		    transform: rotate(-8deg);
+		}
+
+		50% {
+		    transform: rotate(8deg);
+		}
+
+		75% {
+		    transform: rotate(-8deg);
+		}
+
+		100% {
+		    transform: rotate(0deg);
+		}
+	} /*애니메이션으로 사용할 수 있는 키프레임*/
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#popup_3 {
+		position: absolute;
+		width: 540px;
+		height: 572.768px;
+		overflow: hidden;
+		--web-view-name: popup_3;
+		--web-view-id: popup_3;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#popup_3_g {
+		position: absolute;
+		width: 'auto';
+		height: 'auto';
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#base_area_i {
+		fill: url(#base_area_i);
+	}
+	.base_area_i {
+		filter: drop-shadow(2px 2px 2px rgba(83, 200, 219, 0.702));
+		position: absolute;
+		overflow: visible;
+		width: 540px;
+		height: 572.768px;
+		left: 0px;
+		top: 0px;
+	}
+	#cheating_area {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.cheating_area {
+		overflow: visible;
+		position: absolute;
+		width: 520px;
+		height: 494px;
+		left: 9.153px;
+		top: 30.858px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#input_control_area {
+		position: absolute;
+		width: 517.476px;
+		height: 26.142px;
+		left: 9px;
+		top: 530.858px;
+		overflow: visible;
+	}
+	#text_input_graphic {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.text_input_graphic {
+		position: absolute;
+		overflow: visible;
+		width: 486px;
+		height: 26px;
+		left: 0.153px;
+		top: 0px;
+	}
+	#send_message_button {
+		opacity: 0.8;
+		fill: rgba(0,0,0,1);
+	}
+	.send_message_button {
+		overflow: visible;
+		position: absolute;
+		width: 22.323px;
+		height: 16.699px;
+		left: 495.153px;
+		top: 4.651px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#text_input_window {
+		fill: transparent;
+	}
+	.text_input_window {
+		position: absolute;
+		overflow: visible;
+		width: 486px;
+		height: 26px;
+		left: 0px;
+		top: 0.142px;
+	}
+	#back_area {
+		position: absolute;
+		width: 114px;
+		height: 21px;
+		left: 9px;
+		top: 5px;
+		overflow: visible;
+	}
+	#back_button_q {
+		fill: url(#back_button_q);
+		stroke: rgba(0,0,0,1);
+		stroke-width: 0.5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.back_button_q {
+		filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 117px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+	}
+	#back_text_field {
+		left: 25px;
+		top: 2px;
+		position: absolute;
+		overflow: visible;
+		width: 66px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Malgun Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		color: rgba(29,29,29,1);
+	}
+	#back_area:active > .back_button_q > rect#back_button_q {
+		fill: #5d8eb3; 
+		scale: 97%;
+	}
+	#back_area:active > .back_button_q {
+		filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0)); 
+	}
+	#addd {
+		user-select: none;
+		font-size: 97%;
+	}
+	#practical_working_area {
+		width: 520px;
+		height: 494px;
+		left: 9.153px;
+		top: 30.858px;
+		z-index: 9998;
+		position: absolute;
+    	padding: 10px;
+		overflow: auto;
+		scroll-behavior: smooth;
+	}
+	.message_bubble {
+		font-family: Malgun Gothic;
+		position: relative;
+		z-index: 9999;
+    	border-radius: 10px;
+    	padding: 10px;
+		margin-left: 5px;
+		margin-right: 5px;
+		word-break: break-all;
+		word-wrap: break-word;
+		text-align: center;
+	}
+	.message_bubble.self {
+    	background-color: #dcf8c6;
+    	align-self: flex-end;
+		min-width: 60px;
+		max-width: 210px;
+		word-break: 210px;
+		float: right;
+	}
+	.message_bubble.ai {
+		background-color: #c6c7f8;
+		align-self: flex-end;
+		min-width: 60px;
+		max-width: 260px;
+		word-break: 260px;
+		z-index: 9999;
+		float: left;
+
+	}
+	.message_bubble.ai:hover {
+		scale:120%;
+	}
+	.bubble_frame {
+		width: 100%;
+		height: auto;
+		clear: both;
+		display: table;
+		content: '';
+		margin-bottom: 5px;
+		position: relative;
+	}
+	.send_message_button:hover {
+		animation-name: swing;
+		animation-duration: 0.6s;
+	}
+	#input_area {
+		width: 470px;
+		height: 26px;
+		left: 15px;
+		top: 530.858px;
+		position: absolute;
+		border: none;
+		outline: none;
+		background-color: #5d8eb300;
+		z-index: 9999;
+	}
+	@keyframes waveBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+	.copy_alret {
+		text-align: center;
+		font-size: 17px;
+		font-family: Malgun Gothic Bold;
+		padding-top: 10px;
+		color:whitesmoke;
+		stroke: black;
+		border: 1px solid black;
+		pointer-events: none; /* Prevents popup from blocking interactions */
+    	background: linear-gradient(270deg, #333, #555, #333);
+    	background-size: 400% 400%;
+    	animation: waveBackground 2s infinite;
+	}
+</style>
+
+</head>
+<body>
+<div id="popup_3">
+	<div id="popup_3_g">
+		<svg class="base_area_i">
+			<linearGradient id="base_area_i" spreadMethod="pad" x1="0" x2="1" y1="0.474" y2="0.474">
+				<stop offset="0" stop-color="#f9a7ff" stop-opacity="1"></stop>
+				<stop offset="1" stop-color="#d6f7ff" stop-opacity="1"></stop>
+			</linearGradient>
+			<rect id="base_area_i" rx="9" ry="9" x="0" y="0" width="538" height="565.529">
+			</rect>
+		</svg>
+		<div id="practical_working_area"></div>
+		<svg class="cheating_area" viewBox="0 0 520 494">
+			<path id="cheating_area" d="M 8 0 L 512 0 C 516.4182739257812 0 520 3.581721782684326 520 8 L 520 486 C 520 490.4182739257812 516.4182739257812 494 512 494 L 8 494 C 3.581721782684326 494 0 490.4182739257812 0 486 L 0 8 C 0 3.581721782684326 3.581721782684326 0 8 0 Z">
+			</path>
+		</svg>
+		<input id="input_area" type="text"/>
+		<div id="input_control_area">
+			<svg class="text_input_graphic">
+				<rect id="text_input_graphic" rx="11" ry="11" x="0" y="0" width="486" height="26">
+				</rect>
+			</svg>
+			<svg class="send_message_button" viewBox="2 4 22.323 16.699">
+				<path id="send_message_button" d="M 22.0908088684082 4 L 4.232312202453613 4 C 3.00454044342041 4 2.01116156578064 4.939293384552002 2.01116156578064 6.087318420410156 L 1.999999761581421 18.61123085021973 C 1.999999761581421 19.75925636291504 3.00454044342041 20.69854927062988 4.232312202453613 20.69854927062988 L 22.0908088684082 20.69854927062988 C 23.31858062744141 20.69854927062988 24.3231201171875 19.75925636291504 24.3231201171875 18.61123085021973 L 24.3231201171875 6.087318420410156 C 24.3231201171875 4.939293384552002 23.31858062744141 4 22.0908088684082 4 Z M 22.0908088684082 18.61123085021973 L 4.232312202453613 18.61123085021973 L 4.232312202453613 8.174636840820312 L 13.16156005859375 13.3929328918457 L 22.0908088684082 8.174636840820312 L 22.0908088684082 18.61123085021973 Z M 13.16156005859375 11.30561447143555 L 4.232312202453613 6.087318420410156 L 22.0908088684082 6.087318420410156 L 13.16156005859375 11.30561447143555 Z">
+				</path>
+			</svg>
+			<svg class="text_input_window">
+				<rect id="text_input_window" rx="0" ry="0" x="0" y="0" width="486" height="26">
+				</rect>
+			</svg>
+		</div>
+		<div id="back_area">
+			<svg class="back_button_q">
+				<linearGradient id="back_button_q" spreadMethod="pad" x1="0" x2="1" y1="0.5" y2="0.5">
+					<stop offset="0" stop-color="#a4d8ff" stop-opacity="1"></stop>
+					<stop offset="1" stop-color="#fdc8ff" stop-opacity="1"></stop>
+				</linearGradient>
+				<rect id="back_button_q" rx="10.5" ry="10.5" x="0" y="0" width="114" height="21">
+				</rect>
+			</svg>
+			<div id="back_text_field">
+				<span id="addd">되돌아가기</span>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
